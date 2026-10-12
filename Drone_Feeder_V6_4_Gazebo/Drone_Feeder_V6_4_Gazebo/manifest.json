@@ -1,0 +1,38 @@
+{
+  "step_solids": 276,
+  "cad_inventory_bodies": 275,
+  "triangles": 584972,
+  "cad_bounds_m": [
+    -0.252130261086864,
+    -0.18513026108686398,
+    -0.35800000010000005,
+    0.252130261086864,
+    0.18513026108686398,
+    0.0845000001
+  ],
+  "mesh_bounds_m": [
+    -0.252130260986864,
+    -0.185130260986864,
+    -0.358,
+    0.252130260986864,
+    0.185130260986864,
+    0.0845
+  ],
+  "units": "metres",
+  "mesh_min_size_mm": 0.5,
+  "mesh_max_size_mm": 4.0,
+  "static": true,
+  "source_step": "Drone_Feeder_V6_4_MasterCAD.step",
+  "model_name": "drone_feeder_v64",
+  "files_sha256": {
+    "launch.sh": "4423283d21dcce1f8492bc1687bcbe46981935cdab8e25a61844d3d70c32aa42",
+    "models/drone_feeder_v64/meshes/feeder.stl": "77e976059d273826addd3b01f6dba6f3471e9a57c3fe1e905438476350b5fc81",
+    "models/drone_feeder_v64/model.config": "cbe3aaab850974c92f29a79ce671532d1cf4cbb6be239c5ad9ee1c23278f49ac",
+    "models/drone_feeder_v64/model.sdf": "907741c80f7acb037a44073a8bd0f620f44dead755a168ab8e58d292b73a0cd0",
+    "README_匯入說明.md": "affddc411895d1817f65a8ed5e6c875c0caaa8db2eba6747f3ab9b9e182572e4",
+    "source_cad/body_inventory.json": "86e4f53d6a75f0d42a5d8263a30baa55bd49670f43a8aa8ac10cdef875b43c6e",
+    "source_cad/Drone_Feeder_V6_4_MasterCAD.f3d": "3e52db9495696d33a67d0a3336c0ea1ecfc62bff22593271fb10c01519679e11",
+    "source_cad/Drone_Feeder_V6_4_MasterCAD.step": "42837cdd47ba5fde78aec008f96d217a221b730223bf23f4c14a4b5e21914895",
+    "worlds/feeder_demo.sdf": "262025a44dc27b0637c3f62b559be734b043d9635995f0625c985b6164916ea2"
+  }
+}

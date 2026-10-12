@@ -2,6 +2,7 @@ import argparse
 import json
 import math
 import os
+import shutil
 
 G = 9.81
 RHO = 1.2041
@@ -21,6 +22,9 @@ p.add_argument("--feeder", action="store_true")
 p.add_argument("--feed", type=float, default=5.0)
 p.add_argument("--feed-chunks", type=int, default=20)
 p.add_argument("--site", default="", help="site.json: obstacles are added to the world as static boxes")
+p.add_argument("--feeder-cad", default=os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "Drone_Feeder_V6_4_Gazebo",
+                                                    "Drone_Feeder_V6_4_Gazebo", "models", "drone_feeder_v64"),
+               help="drone_feeder_v64 model dir (CAD STL mesh hung under the drone when --feeder)")
 p.add_argument("--cda", type=float, default=0.25)
 p.add_argument("--out", default=os.path.expanduser("~/simulators/bigquad"))
 a = p.parse_args()
@@ -38,7 +42,9 @@ comps = [
     (0.9, (0, 0, -0.14), (0.20, 0.14, 0.06)),
     (0.6 + a.fuel, (0, 0, -0.15), (0.30, 0.20, 0.10)),
 ]
-FZ = -0.20
+FZ = -0.20  # top of the feeder (drone-side interface) relative to base_link
+# V6.4 CAD (metres, its own origin): top interface z=+0.0845, feet bottom z=-0.358, feet at (+-0.237, +-0.170), 0.03 x 0.03 x 0.018
+CAD_TOP, CAD_BOTTOM, CAD_FOOT_X, CAD_FOOT_Y, CAD_FOOT_H = 0.0845, 0.4425, 0.237, 0.170, 0.018  # CAD_BOTTOM = top-to-feet height
 if a.feeder:
     comps.append((0.561, (0, 0, FZ), (0.30, 0.25, 0.04)))
     comps.append((3.674, (0, 0, FZ - 0.17), (0.30, 0.25, 0.30)))
@@ -157,16 +163,12 @@ sdf = f"""<?xml version='1.0'?>
       <visual name='strut_rr'><pose>-0.3 -0.25 -0.225 0 0 0</pose><geometry><cylinder><radius>0.012</radius><length>0.45</length></cylinder></geometry></visual>
 """
 if a.feeder:
-    leg_len = 0.41 - 0.0
-    sdf += f"""      <visual name='feeder_hopper'><pose>0 0 {FZ - 0.14:.3f} 0 0 0</pose><geometry><box><size>0.30 0.25 0.285</size></box></geometry>
-        <transparency>0.6</transparency><material><ambient>0.7 0.7 0.7 1</ambient><diffuse>0.9 0.9 0.9 1</diffuse></material></visual>
-      <visual name='feeder_frame'><pose>0 0 {FZ - 0.02:.3f} 0 0 0</pose><geometry><box><size>0.453 0.37 0.04</size></box></geometry>
-        <material><ambient>0.2 0.2 0.2 1</ambient><diffuse>0.3 0.3 0.3 1</diffuse></material></visual>
+    sdf += f"""      <visual name='feeder_cad'><pose>0 0 {FZ - CAD_TOP:.4f} 0 0 0</pose><geometry><mesh><uri>model://drone_feeder_v64/meshes/feeder.stl</uri></mesh></geometry>
+        <material><ambient>0.65 0.68 0.72 1</ambient><diffuse>0.65 0.68 0.72 1</diffuse></material></visual>
 """
-    for lx in (-0.22, 0.22):
-        for ly in (-0.161, 0.161):
-            sdf += f"""      <collision name='feeder_foot_{lx}_{ly}'><pose>{lx} {ly} {FZ - 0.40:.3f} 0 0 0</pose><geometry><box><size>0.06 0.04 0.02</size></box></geometry></collision>
-      <visual name='feeder_leg_{lx}_{ly}'><pose>{lx} {ly} {FZ - 0.22:.3f} 0 0 0</pose><geometry><cylinder><radius>0.012</radius><length>0.36</length></cylinder></geometry></visual>
+    for lx in (-CAD_FOOT_X, CAD_FOOT_X):
+        for ly in (-CAD_FOOT_Y, CAD_FOOT_Y):
+            sdf += f"""      <collision name='feeder_foot_{lx}_{ly}'><pose>{lx} {ly} {FZ - CAD_BOTTOM + CAD_FOOT_H / 2:.4f} 0 0 0</pose><geometry><box><size>0.03 0.03 {CAD_FOOT_H}</size></box></geometry></collision>
 """
 if a.payload > 0:
     sdf += """      <visual name='payload'><pose>0 0 -0.28 0 0 0</pose><geometry><box><size>0.30 0.20 0.15</size></box></geometry>
@@ -235,6 +237,14 @@ open(os.path.join(mdir, "model.config"), "w").write(
     '<?xml version="1.0"?>\n<model><name>bigquad</name><version>1.0</version>'
     '<sdf version="1.9">model.sdf</sdf><description>28kg class quad</description></model>\n'
 )
+if a.feeder:
+    src = os.path.abspath(a.feeder_cad)
+    dst = os.path.join(AG, "models", "drone_feeder_v64")
+    stl = os.path.join("meshes", "feeder.stl")
+    if not os.path.isfile(os.path.join(src, stl)):
+        raise SystemExit(f"feeder CAD model not found: {src} (use --feeder-cad)")
+    if not os.path.isfile(os.path.join(dst, stl)) or os.path.getsize(os.path.join(dst, stl)) != os.path.getsize(os.path.join(src, stl)):
+        shutil.copytree(src, dst, dirs_exist_ok=True)
 
 cda_total = a.cda + (0.204 if a.feeder else 0.0)
 wind_k = 0.5 * RHO * cda_total * 12.0 / M
@@ -276,8 +286,8 @@ elif a.wind > 0:
 
 world = open(os.path.join(AG, "worlds", "iris_runway.sdf")).read()
 world = world.replace("iris_with_gimbal", "bigquad")
-spawn_z = 0.5 if not a.feeder else 0.41 - FZ + 0.03
-world = world.replace('<pose degrees="true">0 0 0.195 0 0 90</pose>', f'<pose degrees="true">0 0 {spawn_z:.2f} 0 0 90</pose>')
+spawn_z = 0.5 if not a.feeder else CAD_BOTTOM - FZ + 0.03  # feet 3 cm above ground
+world = world.replace('<pose degrees="true">0 0 0.195 0 0 90</pose>', f'<pose degrees="true">0 0 {spawn_z:.3f} 0 0 90</pose>')
 world = world.replace('world name="iris_runway"', 'world name="bigquad_runway"')
 feed_xml = ""
 if FEED_KG > 0:

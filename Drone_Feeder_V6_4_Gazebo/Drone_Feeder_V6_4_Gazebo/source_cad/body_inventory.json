@@ -1,0 +1,4131 @@
+{
+ "bodies": [
+  {
+   "component": "Feeder_Body",
+   "body": "Feeder_Body",
+   "volume_mm3": 947545.658,
+   "material": "Steel",
+   "mass_g": 7438.233,
+   "bbox_mm": [
+    -150.0,
+    -125.0,
+    -297.0,
+    150.0,
+    125.0,
+    16.0
+   ]
+  },
+  {
+   "component": "Fill_Lid",
+   "body": "Fill_Lid",
+   "volume_mm3": 104592.075,
+   "material": "ASA (FDM, 1.07 g/cc)",
+   "mass_g": 111.914,
+   "bbox_mm": [
+    -79.0,
+    -103.0,
+    3.0,
+    79.0,
+    108.0,
+    14.5
+   ]
+  },
+  {
+   "component": "Pogo_Connector",
+   "body": "Pogo_Connector",
+   "volume_mm3": 4200.0,
+   "material": "ABS Plastic",
+   "mass_g": 4.452,
+   "bbox_mm": [
+    -65.0,
+    -119.0,
+    0.0,
+    -35.0,
+    -105.0,
+    10.0
+   ]
+  },
+  {
+   "component": "Gate_Flap",
+   "body": "Gate_Flap_V56_V59mod",
+   "volume_mm3": 21400.722,
+   "material": "Steel",
+   "mass_g": 167.996,
+   "bbox_mm": [
+    -43.527,
+    -40.5,
+    -288.0,
+    46.0,
+    40.5,
+    -285.0
+   ]
+  },
+  {
+   "component": "Gate_Servo",
+   "body": "AGFRC_A280BHLW_envelope_284.8g_V59",
+   "volume_mm3": 117754.918,
+   "material": "ABS Plastic",
+   "mass_g": 124.82,
+   "bbox_mm": [
+    -154.8,
+    19.0,
+    -298.0,
+    -75.0,
+    83.0,
+    -268.0
+   ]
+  },
+  {
+   "component": "Servo_Bracket",
+   "body": "NutPlate_6061_10x10x3_M3",
+   "volume_mm3": 278.794,
+   "material": "Steel",
+   "mass_g": 2.189,
+   "bbox_mm": [
+    -34.0,
+    44.0,
+    -280.0,
+    -24.0,
+    54.0,
+    -277.0
+   ]
+  },
+  {
+   "component": "Servo_Bracket",
+   "body": "NutPlate_6061_10x10x3_M3 (1)",
+   "volume_mm3": 278.794,
+   "material": "Steel",
+   "mass_g": 2.189,
+   "bbox_mm": [
+    -12.0,
+    44.0,
+    -280.0,
+    -2.0,
+    54.0,
+    -277.0
+   ]
+  },
+  {
+   "component": "Servo_Bracket",
+   "body": "Screw_M3x25_ISO7380_A4",
+   "volume_mm3": 176.715,
+   "material": "Stainless Steel 316L",
+   "mass_g": 1.412,
+   "bbox_mm": [
+    -30.5,
+    47.5,
+    -280.35,
+    -27.5,
+    50.5,
+    -255.35
+   ]
+  },
+  {
+   "component": "Servo_Bracket",
+   "body": "Screw_M3x25_ISO7380_A4 (1)",
+   "volume_mm3": 176.715,
+   "material": "Stainless Steel 316L",
+   "mass_g": 1.412,
+   "bbox_mm": [
+    -8.5,
+    47.5,
+    -280.35,
+    -5.5,
+    50.5,
+    -255.35
+   ]
+  },
+  {
+   "component": "Servo_Bracket",
+   "body": "Servo_Cradle_A280_6061_3mm_V59",
+   "volume_mm3": 3021.6,
+   "material": "Aluminum 6061",
+   "mass_g": 8.158,
+   "bbox_mm": [
+    -161.0,
+    57.0,
+    -300.0,
+    -70.0,
+    60.0,
+    -264.0
+   ]
+  },
+  {
+   "component": "Servo_Bracket",
+   "body": "Frame_Strut_Left_6061_5mm_V59",
+   "volume_mm3": 5760.0,
+   "material": "Aluminum 6061",
+   "mass_g": 15.552,
+   "bbox_mm": [
+    -161.0,
+    60.0,
+    -300.0,
+    -156.0,
+    92.0,
+    -264.0
+   ]
+  },
+  {
+   "component": "Servo_Bracket",
+   "body": "Lock_Stop_Post_D8_17-4PH_V59",
+   "volume_mm3": 879.646,
+   "material": "Stainless Steel 17-4 PH",
+   "mass_g": 6.861,
+   "bbox_mm": [
+    -123.997,
+    78.5,
+    -286.616,
+    -115.997,
+    96.0,
+    -278.616
+   ]
+  },
+  {
+   "component": "Servo_Bracket",
+   "body": "Open_Stop_Pin_D6_17-4PH_V59",
+   "volume_mm3": 268.606,
+   "material": "Stainless Steel 17-4 PH",
+   "mass_g": 2.095,
+   "bbox_mm": [
+    -33.036,
+    90.5,
+    -291.13,
+    -27.036,
+    100.0,
+    -285.13
+   ]
+  },
+  {
+   "component": "Servo_Bracket",
+   "body": "Gate_Drive_SidePlate_6061_4mm_V59",
+   "volume_mm3": 32778.758,
+   "material": "Aluminum 6061",
+   "mass_g": 88.503,
+   "bbox_mm": [
+    -161.0,
+    84.6,
+    -300.0,
+    -24.0,
+    110.0,
+    -256.0
+   ]
+  },
+  {
+   "component": "Servo_Bracket",
+   "body": "Frame_Floor_6061_4mm_V59b",
+   "volume_mm3": 14980.0,
+   "material": "Aluminum 6061",
+   "mass_g": 40.446,
+   "bbox_mm": [
+    -156.0,
+    60.0,
+    -302.5,
+    -50.0,
+    96.0,
+    -298.5
+   ]
+  },
+  {
+   "component": "Servo_Bracket",
+   "body": "Frame_Bulkhead_6061_4mm_V59b",
+   "volume_mm3": 4410.0,
+   "material": "Aluminum 6061",
+   "mass_g": 11.907,
+   "bbox_mm": [
+    -67.0,
+    61.0,
+    -298.5,
+    -63.0,
+    96.0,
+    -262.0
+   ]
+  },
+  {
+   "component": "Servo_Bracket",
+   "body": "Frame_Arm_to_Collar_Boss_6061_5mm_V64_plate9",
+   "volume_mm3": 24946.023,
+   "material": "Aluminum 6061",
+   "mass_g": 67.354,
+   "bbox_mm": [
+    -67.0,
+    44.5,
+    -262.0,
+    -2.0,
+    96.0,
+    -245.0
+   ]
+  },
+  {
+   "component": "Drone_Side_Interface",
+   "body": "Drone_Plate",
+   "volume_mm3": 135153.578,
+   "material": "Aluminum 5052 H32",
+   "mass_g": 362.212,
+   "bbox_mm": [
+    -155.0,
+    -130.0,
+    49.0,
+    155.0,
+    130.0,
+    52.0
+   ]
+  },
+  {
+   "component": "Drone_Side_Interface",
+   "body": "Locator_Pin_1",
+   "volume_mm3": 4938.584,
+   "material": "Stainless Steel 316L",
+   "mass_g": 39.459,
+   "bbox_mm": [
+    114.0,
+    99.0,
+    2.0,
+    126.0,
+    111.0,
+    49.0
+   ]
+  },
+  {
+   "component": "Drone_Side_Interface",
+   "body": "Locator_Pin_2",
+   "volume_mm3": 4938.584,
+   "material": "Stainless Steel 316L",
+   "mass_g": 39.459,
+   "bbox_mm": [
+    -126.0,
+    -111.0,
+    2.0,
+    -114.0,
+    -99.0,
+    49.0
+   ]
+  },
+  {
+   "component": "Drone_Side_Interface",
+   "body": "Pogo_Receptacle",
+   "volume_mm3": 15540.0,
+   "material": "ABS Plastic",
+   "mass_g": 16.472,
+   "bbox_mm": [
+    -65.0,
+    -119.0,
+    12.0,
+    -35.0,
+    -105.0,
+    49.0
+   ]
+  },
+  {
+   "component": "Drone_Side_Interface",
+   "body": "Pin_Stud_M6x11_A4",
+   "volume_mm3": 311.018,
+   "material": "Stainless Steel 316L",
+   "mass_g": 2.485,
+   "bbox_mm": [
+    117.0,
+    102.0,
+    49.0,
+    123.0,
+    108.0,
+    60.0
+   ]
+  },
+  {
+   "component": "Drone_Side_Interface",
+   "body": "Nut_M6_ISO7040_A4",
+   "volume_mm3": 251.327,
+   "material": "Stainless Steel 316L",
+   "mass_g": 2.008,
+   "bbox_mm": [
+    115.0,
+    100.0,
+    52.0,
+    125.0,
+    110.0,
+    57.0
+   ]
+  },
+  {
+   "component": "Drone_Side_Interface",
+   "body": "Pin_Stud_M6x11_A4 (1)",
+   "volume_mm3": 311.018,
+   "material": "Stainless Steel 316L",
+   "mass_g": 2.485,
+   "bbox_mm": [
+    -123.0,
+    -108.0,
+    49.0,
+    -117.0,
+    -102.0,
+    60.0
+   ]
+  },
+  {
+   "component": "Drone_Side_Interface",
+   "body": "Nut_M6_ISO7040_A4 (1)",
+   "volume_mm3": 251.327,
+   "material": "Stainless Steel 316L",
+   "mass_g": 2.008,
+   "bbox_mm": [
+    -125.0,
+    -110.0,
+    52.0,
+    -115.0,
+    -100.0,
+    57.0
+   ]
+  },
+  {
+   "component": "Gate_Shaft",
+   "body": "E_Clip_DIN6799_7_A2_V59",
+   "volume_mm3": 65.973,
+   "material": "Stainless Steel 316L",
+   "mass_g": 0.527,
+   "bbox_mm": [
+    -54.5,
+    -50.6,
+    -293.5,
+    -41.5,
+    -49.9,
+    -280.5
+   ]
+  },
+  {
+   "component": "Gate_Shaft",
+   "body": "E_Clip_DIN6799_7_A2_V59_o",
+   "volume_mm3": 65.973,
+   "material": "Stainless Steel 316L",
+   "mass_g": 0.527,
+   "bbox_mm": [
+    -54.5,
+    101.2,
+    -293.5,
+    -41.5,
+    101.9,
+    -280.5
+   ]
+  },
+  {
+   "component": "Gate_Shaft",
+   "body": "Gate_Shaft_17-4PH_hex8_J9_L154.5_V59",
+   "volume_mm3": 8494.847,
+   "material": "Stainless Steel 17-4 PH",
+   "mass_g": 66.26,
+   "bbox_mm": [
+    -52.619,
+    -52.0,
+    -291.5,
+    -43.381,
+    102.5,
+    -282.5
+   ]
+  },
+  {
+   "component": "Gate_Bushings",
+   "body": "Flanged_Bushing_9x11x7_V59",
+   "volume_mm3": 301.593,
+   "material": "Acetal Resin, White",
+   "mass_g": 0.43,
+   "bbox_mm": [
+    -55.5,
+    42.0,
+    -294.5,
+    -40.5,
+    49.0,
+    -279.5
+   ]
+  },
+  {
+   "component": "Gate_Bushings",
+   "body": "Flanged_Bushing_9x11x7_V59_n",
+   "volume_mm3": 301.593,
+   "material": "Acetal Resin, White",
+   "mass_g": 0.43,
+   "bbox_mm": [
+    -55.5,
+    -49.0,
+    -294.5,
+    -40.5,
+    -42.0,
+    -279.5
+   ]
+  },
+  {
+   "component": "Gate_Bushings",
+   "body": "Flanged_Bushing_9x11x5_sideplate_V59",
+   "volume_mm3": 238.761,
+   "material": "Acetal Resin, White",
+   "mass_g": 0.34,
+   "bbox_mm": [
+    -55.5,
+    96.0,
+    -294.5,
+    -40.5,
+    101.0,
+    -279.5
+   ]
+  },
+  {
+   "component": "Drone_Latch",
+   "body": "Stop_SetScrew_M3x12_A4",
+   "volume_mm3": 80.115,
+   "material": "Stainless Steel 316L",
+   "mass_g": 0.64,
+   "bbox_mm": [
+    134.0,
+    98.5,
+    19.5,
+    145.334,
+    101.5,
+    22.5
+   ]
+  },
+  {
+   "component": "Drone_Latch",
+   "body": "Stop_SetScrew_M3x12_A4 (1)",
+   "volume_mm3": 80.115,
+   "material": "Stainless Steel 316L",
+   "mass_g": 0.64,
+   "bbox_mm": [
+    134.0,
+    -101.5,
+    19.5,
+    145.334,
+    -98.5,
+    22.5
+   ]
+  },
+  {
+   "component": "Drone_Latch",
+   "body": "Stop_SetScrew_M3x12_A4 (2)",
+   "volume_mm3": 80.115,
+   "material": "Stainless Steel 316L",
+   "mass_g": 0.64,
+   "bbox_mm": [
+    -145.334,
+    98.5,
+    19.5,
+    -134.0,
+    101.5,
+    22.5
+   ]
+  },
+  {
+   "component": "Drone_Latch",
+   "body": "Stop_SetScrew_M3x12_A4 (3)",
+   "volume_mm3": 80.115,
+   "material": "Stainless Steel 316L",
+   "mass_g": 0.64,
+   "bbox_mm": [
+    -145.334,
+    -101.5,
+    19.5,
+    -134.0,
+    -98.5,
+    22.5
+   ]
+  },
+  {
+   "component": "Drone_Latch",
+   "body": "Screw_M3x12_ISO7380_A4+nylock",
+   "volume_mm3": 106.029,
+   "material": "Stainless Steel 316L",
+   "mass_g": 0.847,
+   "bbox_mm": [
+    138.5,
+    93.0,
+    43.0,
+    141.5,
+    96.0,
+    58.0
+   ]
+  },
+  {
+   "component": "Drone_Latch",
+   "body": "Screw_M3x12_ISO7380_A4+nylock (1)",
+   "volume_mm3": 106.029,
+   "material": "Stainless Steel 316L",
+   "mass_g": 0.847,
+   "bbox_mm": [
+    138.5,
+    104.0,
+    43.0,
+    141.5,
+    107.0,
+    58.0
+   ]
+  },
+  {
+   "component": "Drone_Latch",
+   "body": "Screw_M3x12_ISO7380_A4+nylock (2)",
+   "volume_mm3": 106.029,
+   "material": "Stainless Steel 316L",
+   "mass_g": 0.847,
+   "bbox_mm": [
+    138.5,
+    -96.0,
+    43.0,
+    141.5,
+    -93.0,
+    58.0
+   ]
+  },
+  {
+   "component": "Drone_Latch",
+   "body": "Screw_M3x12_ISO7380_A4+nylock (3)",
+   "volume_mm3": 106.029,
+   "material": "Stainless Steel 316L",
+   "mass_g": 0.847,
+   "bbox_mm": [
+    138.5,
+    -107.0,
+    43.0,
+    141.5,
+    -104.0,
+    58.0
+   ]
+  },
+  {
+   "component": "Drone_Latch",
+   "body": "Screw_M3x12_ISO7380_A4+nylock (4)",
+   "volume_mm3": 106.029,
+   "material": "Stainless Steel 316L",
+   "mass_g": 0.847,
+   "bbox_mm": [
+    -141.5,
+    93.0,
+    43.0,
+    -138.5,
+    96.0,
+    58.0
+   ]
+  },
+  {
+   "component": "Drone_Latch",
+   "body": "Screw_M3x12_ISO7380_A4+nylock (5)",
+   "volume_mm3": 106.029,
+   "material": "Stainless Steel 316L",
+   "mass_g": 0.847,
+   "bbox_mm": [
+    -141.5,
+    104.0,
+    43.0,
+    -138.5,
+    107.0,
+    58.0
+   ]
+  },
+  {
+   "component": "Drone_Latch",
+   "body": "Screw_M3x12_ISO7380_A4+nylock (6)",
+   "volume_mm3": 106.029,
+   "material": "Stainless Steel 316L",
+   "mass_g": 0.847,
+   "bbox_mm": [
+    -141.5,
+    -96.0,
+    43.0,
+    -138.5,
+    -93.0,
+    58.0
+   ]
+  },
+  {
+   "component": "Drone_Latch",
+   "body": "Screw_M3x12_ISO7380_A4+nylock (7)",
+   "volume_mm3": 106.029,
+   "material": "Stainless Steel 316L",
+   "mass_g": 0.847,
+   "bbox_mm": [
+    -141.5,
+    -107.0,
+    43.0,
+    -138.5,
+    -104.0,
+    58.0
+   ]
+  },
+  {
+   "component": "Drone_Latch",
+   "body": "Savox_SW-0250MG_envelope_25g",
+   "volume_mm3": 13422.5,
+   "material": "ABS Plastic",
+   "mass_g": 14.228,
+   "bbox_mm": [
+    125.5,
+    60.0,
+    52.0,
+    155.0,
+    74.0,
+    84.5
+   ]
+  },
+  {
+   "component": "Drone_Latch",
+   "body": "Savox_SW-0250MG_envelope_25g (1)",
+   "volume_mm3": 13422.5,
+   "material": "ABS Plastic",
+   "mass_g": 14.228,
+   "bbox_mm": [
+    125.5,
+    -74.0,
+    52.0,
+    155.0,
+    -60.0,
+    84.5
+   ]
+  },
+  {
+   "component": "Drone_Latch",
+   "body": "Savox_SW-0250MG_envelope_25g (2)",
+   "volume_mm3": 13422.5,
+   "material": "ABS Plastic",
+   "mass_g": 14.228,
+   "bbox_mm": [
+    -155.0,
+    60.0,
+    52.0,
+    -125.5,
+    74.0,
+    84.5
+   ]
+  },
+  {
+   "component": "Drone_Latch",
+   "body": "Savox_SW-0250MG_envelope_25g (3)",
+   "volume_mm3": 13422.5,
+   "material": "ABS Plastic",
+   "mass_g": 14.228,
+   "bbox_mm": [
+    -155.0,
+    -74.0,
+    52.0,
+    -125.5,
+    -60.0,
+    84.5
+   ]
+  },
+  {
+   "component": "Drone_Latch",
+   "body": "Plunger_316_tip_D5_head_D9.8",
+   "volume_mm3": 181.867,
+   "material": "Steel",
+   "mass_g": 1.428,
+   "bbox_mm": [
+    150.1,
+    84.1,
+    3.0,
+    159.9,
+    93.9,
+    8.0
+   ]
+  },
+  {
+   "component": "Drone_Latch",
+   "body": "Plunger_316_tip_D5_head_D9.8 (1)",
+   "volume_mm3": 181.867,
+   "material": "Steel",
+   "mass_g": 1.428,
+   "bbox_mm": [
+    150.1,
+    106.1,
+    3.0,
+    159.9,
+    115.9,
+    8.0
+   ]
+  },
+  {
+   "component": "Drone_Latch",
+   "body": "Plunger_316_tip_D5_head_D9.8 (2)",
+   "volume_mm3": 181.867,
+   "material": "Steel",
+   "mass_g": 1.428,
+   "bbox_mm": [
+    150.1,
+    -93.9,
+    3.0,
+    159.9,
+    -84.1,
+    8.0
+   ]
+  },
+  {
+   "component": "Drone_Latch",
+   "body": "Plunger_316_tip_D5_head_D9.8 (3)",
+   "volume_mm3": 181.867,
+   "material": "Steel",
+   "mass_g": 1.428,
+   "bbox_mm": [
+    150.1,
+    -115.9,
+    3.0,
+    159.9,
+    -106.1,
+    8.0
+   ]
+  },
+  {
+   "component": "Drone_Latch",
+   "body": "Plunger_316_tip_D5_head_D9.8 (4)",
+   "volume_mm3": 181.867,
+   "material": "Steel",
+   "mass_g": 1.428,
+   "bbox_mm": [
+    -159.9,
+    84.1,
+    3.0,
+    -150.1,
+    93.9,
+    8.0
+   ]
+  },
+  {
+   "component": "Drone_Latch",
+   "body": "Plunger_316_tip_D5_head_D9.8 (5)",
+   "volume_mm3": 181.867,
+   "material": "Steel",
+   "mass_g": 1.428,
+   "bbox_mm": [
+    -159.9,
+    106.1,
+    3.0,
+    -150.1,
+    115.9,
+    8.0
+   ]
+  },
+  {
+   "component": "Drone_Latch",
+   "body": "Plunger_316_tip_D5_head_D9.8 (6)",
+   "volume_mm3": 181.867,
+   "material": "Steel",
+   "mass_g": 1.428,
+   "bbox_mm": [
+    -159.9,
+    -93.9,
+    3.0,
+    -150.1,
+    -84.1,
+    8.0
+   ]
+  },
+  {
+   "component": "Drone_Latch",
+   "body": "Plunger_316_tip_D5_head_D9.8 (7)",
+   "volume_mm3": 181.867,
+   "material": "Steel",
+   "mass_g": 1.428,
+   "bbox_mm": [
+    -159.9,
+    -115.9,
+    3.0,
+    -150.1,
+    -106.1,
+    8.0
+   ]
+  },
+  {
+   "component": "Drone_Latch",
+   "body": "Eccentric_CrossShaft_Ti6Al4V_D5_L226",
+   "volume_mm3": 4437.5,
+   "material": "Steel",
+   "mass_g": 34.834,
+   "bbox_mm": [
+    148.5,
+    -113.0,
+    36.4,
+    153.5,
+    113.0,
+    41.4
+   ]
+  },
+  {
+   "component": "Drone_Latch",
+   "body": "Eccentric_CrossShaft_Ti6Al4V_D5_L226 (1)",
+   "volume_mm3": 4437.5,
+   "material": "Steel",
+   "mass_g": 34.834,
+   "bbox_mm": [
+    -153.5,
+    -113.0,
+    36.4,
+    -148.5,
+    113.0,
+    41.4
+   ]
+  },
+  {
+   "component": "Drone_Latch",
+   "body": "Torsion_Spring_V55_recentred_ID6.2",
+   "volume_mm3": 156.828,
+   "material": "Steel",
+   "mass_g": 1.231,
+   "bbox_mm": [
+    146.3,
+    105.0,
+    34.2,
+    155.7,
+    109.0,
+    43.6
+   ]
+  },
+  {
+   "component": "Drone_Latch",
+   "body": "Torsion_Spring_V55_recentred_ID6.2 (1)",
+   "volume_mm3": 156.828,
+   "material": "Steel",
+   "mass_g": 1.231,
+   "bbox_mm": [
+    146.3,
+    -109.0,
+    34.2,
+    155.7,
+    -105.0,
+    43.6
+   ]
+  },
+  {
+   "component": "Drone_Latch",
+   "body": "Torsion_Spring_V55_recentred_ID6.2 (2)",
+   "volume_mm3": 156.828,
+   "material": "Steel",
+   "mass_g": 1.231,
+   "bbox_mm": [
+    -155.7,
+    105.0,
+    34.2,
+    -146.3,
+    109.0,
+    43.6
+   ]
+  },
+  {
+   "component": "Drone_Latch",
+   "body": "Torsion_Spring_V55_recentred_ID6.2 (3)",
+   "volume_mm3": 156.828,
+   "material": "Steel",
+   "mass_g": 1.231,
+   "bbox_mm": [
+    -155.7,
+    -109.0,
+    34.2,
+    -146.3,
+    -105.0,
+    43.6
+   ]
+  },
+  {
+   "component": "Drone_Latch",
+   "body": "Eccentric_Sleeve_CuAl10Ni5Fe4_OD9_e1.1_L3.6",
+   "volume_mm3": 158.336,
+   "material": "Steel",
+   "mass_g": 1.243,
+   "bbox_mm": [
+    146.5,
+    98.2,
+    35.5,
+    155.5,
+    101.8,
+    44.5
+   ]
+  },
+  {
+   "component": "Drone_Latch",
+   "body": "Bushing_PTFE_bronze_backed_5x7x2.6",
+   "volume_mm3": 49.009,
+   "material": "Steel",
+   "mass_g": 0.385,
+   "bbox_mm": [
+    147.5,
+    95.5,
+    35.4,
+    154.5,
+    98.1,
+    42.4
+   ]
+  },
+  {
+   "component": "Drone_Latch",
+   "body": "Bushing_PTFE_bronze_backed_5x7x2.6 (1)",
+   "volume_mm3": 49.009,
+   "material": "Steel",
+   "mass_g": 0.385,
+   "bbox_mm": [
+    147.5,
+    101.9,
+    35.4,
+    154.5,
+    104.5,
+    42.4
+   ]
+  },
+  {
+   "component": "Drone_Latch",
+   "body": "Eccentric_Sleeve_CuAl10Ni5Fe4_OD9_e1.1_L3.6 (1)",
+   "volume_mm3": 158.336,
+   "material": "Steel",
+   "mass_g": 1.243,
+   "bbox_mm": [
+    146.5,
+    -101.8,
+    35.5,
+    155.5,
+    -98.2,
+    44.5
+   ]
+  },
+  {
+   "component": "Drone_Latch",
+   "body": "Bushing_PTFE_bronze_backed_5x7x2.6 (2)",
+   "volume_mm3": 49.009,
+   "material": "Steel",
+   "mass_g": 0.385,
+   "bbox_mm": [
+    147.5,
+    -98.1,
+    35.4,
+    154.5,
+    -95.5,
+    42.4
+   ]
+  },
+  {
+   "component": "Drone_Latch",
+   "body": "Bushing_PTFE_bronze_backed_5x7x2.6 (3)",
+   "volume_mm3": 49.009,
+   "material": "Steel",
+   "mass_g": 0.385,
+   "bbox_mm": [
+    147.5,
+    -104.5,
+    35.4,
+    154.5,
+    -101.9,
+    42.4
+   ]
+  },
+  {
+   "component": "Drone_Latch",
+   "body": "Eccentric_Sleeve_CuAl10Ni5Fe4_OD9_e1.1_L3.6 (2)",
+   "volume_mm3": 158.336,
+   "material": "Steel",
+   "mass_g": 1.243,
+   "bbox_mm": [
+    -155.5,
+    98.2,
+    35.5,
+    -146.5,
+    101.8,
+    44.5
+   ]
+  },
+  {
+   "component": "Drone_Latch",
+   "body": "Bushing_PTFE_bronze_backed_5x7x2.6 (4)",
+   "volume_mm3": 49.009,
+   "material": "Steel",
+   "mass_g": 0.385,
+   "bbox_mm": [
+    -154.5,
+    95.5,
+    35.4,
+    -147.5,
+    98.1,
+    42.4
+   ]
+  },
+  {
+   "component": "Drone_Latch",
+   "body": "Bushing_PTFE_bronze_backed_5x7x2.6 (5)",
+   "volume_mm3": 49.009,
+   "material": "Steel",
+   "mass_g": 0.385,
+   "bbox_mm": [
+    -154.5,
+    101.9,
+    35.4,
+    -147.5,
+    104.5,
+    42.4
+   ]
+  },
+  {
+   "component": "Drone_Latch",
+   "body": "Eccentric_Sleeve_CuAl10Ni5Fe4_OD9_e1.1_L3.6 (3)",
+   "volume_mm3": 158.336,
+   "material": "Steel",
+   "mass_g": 1.243,
+   "bbox_mm": [
+    -155.5,
+    -101.8,
+    35.5,
+    -146.5,
+    -98.2,
+    44.5
+   ]
+  },
+  {
+   "component": "Drone_Latch",
+   "body": "Bushing_PTFE_bronze_backed_5x7x2.6 (6)",
+   "volume_mm3": 49.009,
+   "material": "Steel",
+   "mass_g": 0.385,
+   "bbox_mm": [
+    -154.5,
+    -98.1,
+    35.4,
+    -147.5,
+    -95.5,
+    42.4
+   ]
+  },
+  {
+   "component": "Drone_Latch",
+   "body": "Bushing_PTFE_bronze_backed_5x7x2.6 (7)",
+   "volume_mm3": 49.009,
+   "material": "Steel",
+   "mass_g": 0.385,
+   "bbox_mm": [
+    -154.5,
+    -104.5,
+    35.4,
+    -147.5,
+    -101.9,
+    42.4
+   ]
+  },
+  {
+   "component": "Drone_Latch",
+   "body": "Hook_V56_17-4PH_H1025_3mm_seatshoe7",
+   "volume_mm3": 2133.776,
+   "material": "Steel",
+   "mass_g": 16.75,
+   "bbox_mm": [
+    143.0,
+    96.5,
+    -21.0,
+    181.0,
+    103.5,
+    48.0
+   ]
+  },
+  {
+   "component": "Drone_Latch",
+   "body": "Hook_V56_17-4PH_H1025_3mm_seatshoe7 (1)",
+   "volume_mm3": 2162.443,
+   "material": "Steel",
+   "mass_g": 16.975,
+   "bbox_mm": [
+    143.0,
+    -103.5,
+    -21.0,
+    181.0,
+    -96.5,
+    48.0
+   ]
+  },
+  {
+   "component": "Drone_Latch",
+   "body": "Hook_V56_17-4PH_H1025_3mm_seatshoe7 (2)",
+   "volume_mm3": 2133.776,
+   "material": "Steel",
+   "mass_g": 16.75,
+   "bbox_mm": [
+    -181.0,
+    96.5,
+    -21.0,
+    -143.0,
+    103.5,
+    48.0
+   ]
+  },
+  {
+   "component": "Drone_Latch",
+   "body": "Hook_V56_17-4PH_H1025_3mm_seatshoe7 (3)",
+   "volume_mm3": 2162.443,
+   "material": "Steel",
+   "mass_g": 16.975,
+   "bbox_mm": [
+    -181.0,
+    -103.5,
+    -21.0,
+    -143.0,
+    -96.5,
+    48.0
+   ]
+  },
+  {
+   "component": "Drone_Latch",
+   "body": "Plunger_Cup_6061HA_D14_L14.7_stem_M8x1_V58",
+   "volume_mm3": 1560.071,
+   "material": "Aluminum 6061",
+   "mass_g": 4.212,
+   "bbox_mm": [
+    148.0,
+    82.0,
+    5.5,
+    162.0,
+    96.0,
+    26.7
+   ]
+  },
+  {
+   "component": "Drone_Latch",
+   "body": "Belleville_stack_16x_SPIROL119668_10x5.2x0.5_h0_0.25_8Sx2P_free10",
+   "volume_mm3": 573.027,
+   "material": "Stainless Steel 316L",
+   "mass_g": 4.578,
+   "bbox_mm": [
+    150.0,
+    84.0,
+    8.0,
+    160.0,
+    94.0,
+    18.0
+   ]
+  },
+  {
+   "component": "Drone_Latch",
+   "body": "Plunger_Cup_6061HA_D14_L14.7_stem_M8x1_V58 (1)",
+   "volume_mm3": 1560.071,
+   "material": "Aluminum 6061",
+   "mass_g": 4.212,
+   "bbox_mm": [
+    148.0,
+    104.0,
+    5.5,
+    162.0,
+    118.0,
+    26.7
+   ]
+  },
+  {
+   "component": "Drone_Latch",
+   "body": "Belleville_stack_16x_SPIROL119668_10x5.2x0.5_h0_0.25_8Sx2P_free10 (1)",
+   "volume_mm3": 573.027,
+   "material": "Stainless Steel 316L",
+   "mass_g": 4.578,
+   "bbox_mm": [
+    150.0,
+    106.0,
+    8.0,
+    160.0,
+    116.0,
+    18.0
+   ]
+  },
+  {
+   "component": "Drone_Latch",
+   "body": "Plunger_Cup_6061HA_D14_L14.7_stem_M8x1_V58 (2)",
+   "volume_mm3": 1560.071,
+   "material": "Aluminum 6061",
+   "mass_g": 4.212,
+   "bbox_mm": [
+    148.0,
+    -96.0,
+    5.5,
+    162.0,
+    -82.0,
+    26.7
+   ]
+  },
+  {
+   "component": "Drone_Latch",
+   "body": "Belleville_stack_16x_SPIROL119668_10x5.2x0.5_h0_0.25_8Sx2P_free10 (2)",
+   "volume_mm3": 573.027,
+   "material": "Stainless Steel 316L",
+   "mass_g": 4.578,
+   "bbox_mm": [
+    150.0,
+    -94.0,
+    8.0,
+    160.0,
+    -84.0,
+    18.0
+   ]
+  },
+  {
+   "component": "Drone_Latch",
+   "body": "Plunger_Cup_6061HA_D14_L14.7_stem_M8x1_V58 (3)",
+   "volume_mm3": 1560.071,
+   "material": "Aluminum 6061",
+   "mass_g": 4.212,
+   "bbox_mm": [
+    148.0,
+    -118.0,
+    5.5,
+    162.0,
+    -104.0,
+    26.7
+   ]
+  },
+  {
+   "component": "Drone_Latch",
+   "body": "Belleville_stack_16x_SPIROL119668_10x5.2x0.5_h0_0.25_8Sx2P_free10 (3)",
+   "volume_mm3": 573.027,
+   "material": "Stainless Steel 316L",
+   "mass_g": 4.578,
+   "bbox_mm": [
+    150.0,
+    -116.0,
+    8.0,
+    160.0,
+    -106.0,
+    18.0
+   ]
+  },
+  {
+   "component": "Drone_Latch",
+   "body": "Plunger_Cup_6061HA_D14_L14.7_stem_M8x1_V58 (4)",
+   "volume_mm3": 1560.071,
+   "material": "Aluminum 6061",
+   "mass_g": 4.212,
+   "bbox_mm": [
+    -162.0,
+    82.0,
+    5.5,
+    -148.0,
+    96.0,
+    26.7
+   ]
+  },
+  {
+   "component": "Drone_Latch",
+   "body": "Belleville_stack_16x_SPIROL119668_10x5.2x0.5_h0_0.25_8Sx2P_free10 (4)",
+   "volume_mm3": 573.027,
+   "material": "Stainless Steel 316L",
+   "mass_g": 4.578,
+   "bbox_mm": [
+    -160.0,
+    84.0,
+    8.0,
+    -150.0,
+    94.0,
+    18.0
+   ]
+  },
+  {
+   "component": "Drone_Latch",
+   "body": "Plunger_Cup_6061HA_D14_L14.7_stem_M8x1_V58 (5)",
+   "volume_mm3": 1560.071,
+   "material": "Aluminum 6061",
+   "mass_g": 4.212,
+   "bbox_mm": [
+    -162.0,
+    104.0,
+    5.5,
+    -148.0,
+    118.0,
+    26.7
+   ]
+  },
+  {
+   "component": "Drone_Latch",
+   "body": "Belleville_stack_16x_SPIROL119668_10x5.2x0.5_h0_0.25_8Sx2P_free10 (5)",
+   "volume_mm3": 573.027,
+   "material": "Stainless Steel 316L",
+   "mass_g": 4.578,
+   "bbox_mm": [
+    -160.0,
+    106.0,
+    8.0,
+    -150.0,
+    116.0,
+    18.0
+   ]
+  },
+  {
+   "component": "Drone_Latch",
+   "body": "Plunger_Cup_6061HA_D14_L14.7_stem_M8x1_V58 (6)",
+   "volume_mm3": 1560.071,
+   "material": "Aluminum 6061",
+   "mass_g": 4.212,
+   "bbox_mm": [
+    -162.0,
+    -96.0,
+    5.5,
+    -148.0,
+    -82.0,
+    26.7
+   ]
+  },
+  {
+   "component": "Drone_Latch",
+   "body": "Belleville_stack_16x_SPIROL119668_10x5.2x0.5_h0_0.25_8Sx2P_free10 (6)",
+   "volume_mm3": 573.027,
+   "material": "Stainless Steel 316L",
+   "mass_g": 4.578,
+   "bbox_mm": [
+    -160.0,
+    -94.0,
+    8.0,
+    -150.0,
+    -84.0,
+    18.0
+   ]
+  },
+  {
+   "component": "Drone_Latch",
+   "body": "Plunger_Cup_6061HA_D14_L14.7_stem_M8x1_V58 (7)",
+   "volume_mm3": 1560.071,
+   "material": "Aluminum 6061",
+   "mass_g": 4.212,
+   "bbox_mm": [
+    -162.0,
+    -118.0,
+    5.5,
+    -148.0,
+    -104.0,
+    26.7
+   ]
+  },
+  {
+   "component": "Drone_Latch",
+   "body": "Belleville_stack_16x_SPIROL119668_10x5.2x0.5_h0_0.25_8Sx2P_free10 (7)",
+   "volume_mm3": 573.027,
+   "material": "Stainless Steel 316L",
+   "mass_g": 4.578,
+   "bbox_mm": [
+    -160.0,
+    -116.0,
+    8.0,
+    -150.0,
+    -106.0,
+    18.0
+   ]
+  },
+  {
+   "component": "Drone_Latch",
+   "body": "Lock_SetScrew_M3x3_A4_nylon_pad",
+   "volume_mm3": 14.137,
+   "material": "Steel",
+   "mass_g": 0.111,
+   "bbox_mm": [
+    153.5,
+    83.0,
+    21.95,
+    156.5,
+    85.0,
+    24.95
+   ]
+  },
+  {
+   "component": "Drone_Latch",
+   "body": "Lock_SetScrew_M3x3_A4_nylon_pad (1)",
+   "volume_mm3": 14.137,
+   "material": "Steel",
+   "mass_g": 0.111,
+   "bbox_mm": [
+    153.5,
+    105.0,
+    21.95,
+    156.5,
+    107.0,
+    24.95
+   ]
+  },
+  {
+   "component": "Drone_Latch",
+   "body": "Lock_SetScrew_M3x3_A4_nylon_pad (2)",
+   "volume_mm3": 14.137,
+   "material": "Steel",
+   "mass_g": 0.111,
+   "bbox_mm": [
+    153.5,
+    -85.0,
+    21.95,
+    156.5,
+    -83.0,
+    24.95
+   ]
+  },
+  {
+   "component": "Drone_Latch",
+   "body": "Lock_SetScrew_M3x3_A4_nylon_pad (3)",
+   "volume_mm3": 14.137,
+   "material": "Steel",
+   "mass_g": 0.111,
+   "bbox_mm": [
+    153.5,
+    -107.0,
+    21.95,
+    156.5,
+    -105.0,
+    24.95
+   ]
+  },
+  {
+   "component": "Drone_Latch",
+   "body": "Lock_SetScrew_M3x3_A4_nylon_pad (4)",
+   "volume_mm3": 14.137,
+   "material": "Steel",
+   "mass_g": 0.111,
+   "bbox_mm": [
+    -156.5,
+    83.0,
+    21.95,
+    -153.5,
+    85.0,
+    24.95
+   ]
+  },
+  {
+   "component": "Drone_Latch",
+   "body": "Lock_SetScrew_M3x3_A4_nylon_pad (5)",
+   "volume_mm3": 14.137,
+   "material": "Steel",
+   "mass_g": 0.111,
+   "bbox_mm": [
+    -156.5,
+    105.0,
+    21.95,
+    -153.5,
+    107.0,
+    24.95
+   ]
+  },
+  {
+   "component": "Drone_Latch",
+   "body": "Lock_SetScrew_M3x3_A4_nylon_pad (6)",
+   "volume_mm3": 14.137,
+   "material": "Steel",
+   "mass_g": 0.111,
+   "bbox_mm": [
+    -156.5,
+    -85.0,
+    21.95,
+    -153.5,
+    -83.0,
+    24.95
+   ]
+  },
+  {
+   "component": "Drone_Latch",
+   "body": "Lock_SetScrew_M3x3_A4_nylon_pad (7)",
+   "volume_mm3": 14.137,
+   "material": "Steel",
+   "mass_g": 0.111,
+   "bbox_mm": [
+    -156.5,
+    -107.0,
+    21.95,
+    -153.5,
+    -105.0,
+    24.95
+   ]
+  },
+  {
+   "component": "Drone_Latch",
+   "body": "Latch_Bracket_V55_ears16_bush7_foot_pocket_plunger_arms (4) (1) (1) (1)",
+   "volume_mm3": 7450.92,
+   "material": "Steel",
+   "mass_g": 58.49,
+   "bbox_mm": [
+    136.0,
+    83.0,
+    17.0,
+    163.0,
+    117.0,
+    49.0
+   ]
+  },
+  {
+   "component": "Drone_Latch",
+   "body": "Latch_Bracket_V55_ears16_bush7_foot_pocket_plunger_arms (1) (1) (1) (1) (1)",
+   "volume_mm3": 7450.251,
+   "material": "Steel",
+   "mass_g": 58.484,
+   "bbox_mm": [
+    136.0,
+    -117.0,
+    17.0,
+    163.0,
+    -83.0,
+    49.0
+   ]
+  },
+  {
+   "component": "Drone_Latch",
+   "body": "Latch_Bracket_V55_ears16_bush7_foot_pocket_plunger_arms (2) (1) (1) (1) (1)",
+   "volume_mm3": 7450.726,
+   "material": "Steel",
+   "mass_g": 58.488,
+   "bbox_mm": [
+    -163.0,
+    83.0,
+    17.0,
+    -136.0,
+    117.0,
+    49.0
+   ]
+  },
+  {
+   "component": "Drone_Latch",
+   "body": "Latch_Bracket_V55_ears16_bush7_foot_pocket_plunger_arms (3) (1) (1) (1) (1)",
+   "volume_mm3": 7450.445,
+   "material": "Steel",
+   "mass_g": 58.486,
+   "bbox_mm": [
+    -163.0,
+    -117.0,
+    17.0,
+    -136.0,
+    -83.0,
+    49.0
+   ]
+  },
+  {
+   "component": "Striker_Cartridges",
+   "body": "Striker_Cap_Al_2mm",
+   "volume_mm3": 200.0,
+   "material": "Aluminum 6061",
+   "mass_g": 0.54,
+   "bbox_mm": [
+    150.0,
+    84.0,
+    1.0,
+    160.0,
+    94.0,
+    3.0
+   ]
+  },
+  {
+   "component": "Striker_Cartridges",
+   "body": "Striker_Cap_Al_2mm (1)",
+   "volume_mm3": 200.0,
+   "material": "Aluminum 6061",
+   "mass_g": 0.54,
+   "bbox_mm": [
+    150.0,
+    106.0,
+    1.0,
+    160.0,
+    116.0,
+    3.0
+   ]
+  },
+  {
+   "component": "Striker_Cartridges",
+   "body": "Striker_Pin_D5x32_17-4PH_H1025_dryfilm_noPTFE",
+   "volume_mm3": 628.319,
+   "material": "Stainless Steel 17-4 PH",
+   "mass_g": 4.901,
+   "bbox_mm": [
+    151.5,
+    84.0,
+    -15.0,
+    156.5,
+    116.0,
+    -10.0
+   ]
+  },
+  {
+   "component": "Striker_Cartridges",
+   "body": "Striker_Cap_Al_2mm (2)",
+   "volume_mm3": 200.0,
+   "material": "Aluminum 6061",
+   "mass_g": 0.54,
+   "bbox_mm": [
+    150.0,
+    -94.0,
+    1.0,
+    160.0,
+    -84.0,
+    3.0
+   ]
+  },
+  {
+   "component": "Striker_Cartridges",
+   "body": "Striker_Cap_Al_2mm (3)",
+   "volume_mm3": 200.0,
+   "material": "Aluminum 6061",
+   "mass_g": 0.54,
+   "bbox_mm": [
+    150.0,
+    -116.0,
+    1.0,
+    160.0,
+    -106.0,
+    3.0
+   ]
+  },
+  {
+   "component": "Striker_Cartridges",
+   "body": "Striker_Pin_D5x32_17-4PH_H1025_dryfilm_noPTFE (1)",
+   "volume_mm3": 628.319,
+   "material": "Stainless Steel 17-4 PH",
+   "mass_g": 4.901,
+   "bbox_mm": [
+    151.5,
+    -116.0,
+    -15.0,
+    156.5,
+    -84.0,
+    -10.0
+   ]
+  },
+  {
+   "component": "Striker_Cartridges",
+   "body": "Striker_Cap_Al_2mm (4)",
+   "volume_mm3": 200.0,
+   "material": "Aluminum 6061",
+   "mass_g": 0.54,
+   "bbox_mm": [
+    -160.0,
+    84.0,
+    1.0,
+    -150.0,
+    94.0,
+    3.0
+   ]
+  },
+  {
+   "component": "Striker_Cartridges",
+   "body": "Striker_Cap_Al_2mm (5)",
+   "volume_mm3": 200.0,
+   "material": "Aluminum 6061",
+   "mass_g": 0.54,
+   "bbox_mm": [
+    -160.0,
+    106.0,
+    1.0,
+    -150.0,
+    116.0,
+    3.0
+   ]
+  },
+  {
+   "component": "Striker_Cartridges",
+   "body": "Striker_Pin_D5x32_17-4PH_H1025_dryfilm_noPTFE (2)",
+   "volume_mm3": 628.319,
+   "material": "Stainless Steel 17-4 PH",
+   "mass_g": 4.901,
+   "bbox_mm": [
+    -156.5,
+    84.0,
+    -15.0,
+    -151.5,
+    116.0,
+    -10.0
+   ]
+  },
+  {
+   "component": "Striker_Cartridges",
+   "body": "Striker_Cap_Al_2mm (6)",
+   "volume_mm3": 200.0,
+   "material": "Aluminum 6061",
+   "mass_g": 0.54,
+   "bbox_mm": [
+    -160.0,
+    -94.0,
+    1.0,
+    -150.0,
+    -84.0,
+    3.0
+   ]
+  },
+  {
+   "component": "Striker_Cartridges",
+   "body": "Striker_Cap_Al_2mm (7)",
+   "volume_mm3": 200.0,
+   "material": "Aluminum 6061",
+   "mass_g": 0.54,
+   "bbox_mm": [
+    -160.0,
+    -116.0,
+    1.0,
+    -150.0,
+    -106.0,
+    3.0
+   ]
+  },
+  {
+   "component": "Striker_Cartridges",
+   "body": "Striker_Pin_D5x32_17-4PH_H1025_dryfilm_noPTFE (3)",
+   "volume_mm3": 628.319,
+   "material": "Stainless Steel 17-4 PH",
+   "mass_g": 4.901,
+   "bbox_mm": [
+    -156.5,
+    -116.0,
+    -15.0,
+    -151.5,
+    -84.0,
+    -10.0
+   ]
+  },
+  {
+   "component": "Striker_Cartridges",
+   "body": "Spring_302_d0.9_D5.1_n5_k8.53_L0_9.76_P15",
+   "volume_mm3": 115.359,
+   "material": "Stainless Steel 316L",
+   "mass_g": 0.922,
+   "bbox_mm": [
+    151.0,
+    86.0,
+    -7.0,
+    157.0,
+    92.0,
+    1.0
+   ]
+  },
+  {
+   "component": "Striker_Cartridges",
+   "body": "Pusher_Tee_316_head6.2_stem3",
+   "volume_mm3": 39.703,
+   "material": "Stainless Steel 316L",
+   "mass_g": 0.317,
+   "bbox_mm": [
+    150.9,
+    85.9,
+    -10.0,
+    157.1,
+    92.1,
+    -7.0
+   ]
+  },
+  {
+   "component": "Striker_Cartridges",
+   "body": "Spring_302_d0.9_D5.1_n5_k8.53_L0_9.76_P15 (1)",
+   "volume_mm3": 115.359,
+   "material": "Stainless Steel 316L",
+   "mass_g": 0.922,
+   "bbox_mm": [
+    151.0,
+    108.0,
+    -7.0,
+    157.0,
+    114.0,
+    1.0
+   ]
+  },
+  {
+   "component": "Striker_Cartridges",
+   "body": "Pusher_Tee_316_head6.2_stem3 (1)",
+   "volume_mm3": 39.703,
+   "material": "Stainless Steel 316L",
+   "mass_g": 0.317,
+   "bbox_mm": [
+    150.9,
+    107.9,
+    -10.0,
+    157.1,
+    114.1,
+    -7.0
+   ]
+  },
+  {
+   "component": "Striker_Cartridges",
+   "body": "Spring_302_d0.9_D5.1_n5_k8.53_L0_9.76_P15 (2)",
+   "volume_mm3": 115.359,
+   "material": "Stainless Steel 316L",
+   "mass_g": 0.922,
+   "bbox_mm": [
+    151.0,
+    -92.0,
+    -7.0,
+    157.0,
+    -86.0,
+    1.0
+   ]
+  },
+  {
+   "component": "Striker_Cartridges",
+   "body": "Pusher_Tee_316_head6.2_stem3 (2)",
+   "volume_mm3": 39.703,
+   "material": "Stainless Steel 316L",
+   "mass_g": 0.317,
+   "bbox_mm": [
+    150.9,
+    -92.1,
+    -10.0,
+    157.1,
+    -85.9,
+    -7.0
+   ]
+  },
+  {
+   "component": "Striker_Cartridges",
+   "body": "Spring_302_d0.9_D5.1_n5_k8.53_L0_9.76_P15 (3)",
+   "volume_mm3": 115.359,
+   "material": "Stainless Steel 316L",
+   "mass_g": 0.922,
+   "bbox_mm": [
+    151.0,
+    -114.0,
+    -7.0,
+    157.0,
+    -108.0,
+    1.0
+   ]
+  },
+  {
+   "component": "Striker_Cartridges",
+   "body": "Pusher_Tee_316_head6.2_stem3 (3)",
+   "volume_mm3": 39.703,
+   "material": "Stainless Steel 316L",
+   "mass_g": 0.317,
+   "bbox_mm": [
+    150.9,
+    -114.1,
+    -10.0,
+    157.1,
+    -107.9,
+    -7.0
+   ]
+  },
+  {
+   "component": "Striker_Cartridges",
+   "body": "Spring_302_d0.9_D5.1_n5_k8.53_L0_9.76_P15 (4)",
+   "volume_mm3": 115.359,
+   "material": "Stainless Steel 316L",
+   "mass_g": 0.922,
+   "bbox_mm": [
+    -157.0,
+    86.0,
+    -7.0,
+    -151.0,
+    92.0,
+    1.0
+   ]
+  },
+  {
+   "component": "Striker_Cartridges",
+   "body": "Pusher_Tee_316_head6.2_stem3 (4)",
+   "volume_mm3": 39.703,
+   "material": "Stainless Steel 316L",
+   "mass_g": 0.317,
+   "bbox_mm": [
+    -157.1,
+    85.9,
+    -10.0,
+    -150.9,
+    92.1,
+    -7.0
+   ]
+  },
+  {
+   "component": "Striker_Cartridges",
+   "body": "Spring_302_d0.9_D5.1_n5_k8.53_L0_9.76_P15 (5)",
+   "volume_mm3": 115.359,
+   "material": "Stainless Steel 316L",
+   "mass_g": 0.922,
+   "bbox_mm": [
+    -157.0,
+    108.0,
+    -7.0,
+    -151.0,
+    114.0,
+    1.0
+   ]
+  },
+  {
+   "component": "Striker_Cartridges",
+   "body": "Pusher_Tee_316_head6.2_stem3 (5)",
+   "volume_mm3": 39.703,
+   "material": "Stainless Steel 316L",
+   "mass_g": 0.317,
+   "bbox_mm": [
+    -157.1,
+    107.9,
+    -10.0,
+    -150.9,
+    114.1,
+    -7.0
+   ]
+  },
+  {
+   "component": "Striker_Cartridges",
+   "body": "Spring_302_d0.9_D5.1_n5_k8.53_L0_9.76_P15 (6)",
+   "volume_mm3": 115.359,
+   "material": "Stainless Steel 316L",
+   "mass_g": 0.922,
+   "bbox_mm": [
+    -157.0,
+    -92.0,
+    -7.0,
+    -151.0,
+    -86.0,
+    1.0
+   ]
+  },
+  {
+   "component": "Striker_Cartridges",
+   "body": "Pusher_Tee_316_head6.2_stem3 (6)",
+   "volume_mm3": 39.703,
+   "material": "Stainless Steel 316L",
+   "mass_g": 0.317,
+   "bbox_mm": [
+    -157.1,
+    -92.1,
+    -10.0,
+    -150.9,
+    -85.9,
+    -7.0
+   ]
+  },
+  {
+   "component": "Striker_Cartridges",
+   "body": "Spring_302_d0.9_D5.1_n5_k8.53_L0_9.76_P15 (7)",
+   "volume_mm3": 115.359,
+   "material": "Stainless Steel 316L",
+   "mass_g": 0.922,
+   "bbox_mm": [
+    -157.0,
+    -114.0,
+    -7.0,
+    -151.0,
+    -108.0,
+    1.0
+   ]
+  },
+  {
+   "component": "Striker_Cartridges",
+   "body": "Pusher_Tee_316_head6.2_stem3 (7)",
+   "volume_mm3": 39.703,
+   "material": "Stainless Steel 316L",
+   "mass_g": 0.317,
+   "bbox_mm": [
+    -157.1,
+    -114.1,
+    -10.0,
+    -150.9,
+    -107.9,
+    -7.0
+   ]
+  },
+  {
+   "component": "Striker_Cartridges",
+   "body": "Striker_Lug_V56_6061_slot_up1.2_for_saddle",
+   "volume_mm3": 2062.314,
+   "material": "Steel",
+   "mass_g": 16.189,
+   "bbox_mm": [
+    150.0,
+    84.0,
+    -28.0,
+    160.0,
+    94.0,
+    1.0
+   ]
+  },
+  {
+   "component": "Striker_Cartridges",
+   "body": "Saddle_17-4PH_H1025_5.1x10x1.2_bonded",
+   "volume_mm3": 51.549,
+   "material": "Steel",
+   "mass_g": 0.405,
+   "bbox_mm": [
+    151.45,
+    84.0,
+    -9.85,
+    156.55,
+    94.0,
+    -8.65
+   ]
+  },
+  {
+   "component": "Striker_Cartridges",
+   "body": "Striker_Lug_V56_6061_slot_up1.2_for_saddle (1)",
+   "volume_mm3": 2062.314,
+   "material": "Steel",
+   "mass_g": 16.189,
+   "bbox_mm": [
+    150.0,
+    106.0,
+    -28.0,
+    160.0,
+    116.0,
+    1.0
+   ]
+  },
+  {
+   "component": "Striker_Cartridges",
+   "body": "Saddle_17-4PH_H1025_5.1x10x1.2_bonded (1)",
+   "volume_mm3": 51.549,
+   "material": "Steel",
+   "mass_g": 0.405,
+   "bbox_mm": [
+    151.45,
+    106.0,
+    -9.85,
+    156.55,
+    116.0,
+    -8.65
+   ]
+  },
+  {
+   "component": "Striker_Cartridges",
+   "body": "Striker_Lug_V56_6061_slot_up1.2_for_saddle (2)",
+   "volume_mm3": 2062.314,
+   "material": "Steel",
+   "mass_g": 16.189,
+   "bbox_mm": [
+    150.0,
+    -94.0,
+    -28.0,
+    160.0,
+    -84.0,
+    1.0
+   ]
+  },
+  {
+   "component": "Striker_Cartridges",
+   "body": "Saddle_17-4PH_H1025_5.1x10x1.2_bonded (2)",
+   "volume_mm3": 51.549,
+   "material": "Steel",
+   "mass_g": 0.405,
+   "bbox_mm": [
+    151.45,
+    -94.0,
+    -9.85,
+    156.55,
+    -84.0,
+    -8.65
+   ]
+  },
+  {
+   "component": "Striker_Cartridges",
+   "body": "Striker_Lug_V56_6061_slot_up1.2_for_saddle (3)",
+   "volume_mm3": 2062.314,
+   "material": "Steel",
+   "mass_g": 16.189,
+   "bbox_mm": [
+    150.0,
+    -116.0,
+    -28.0,
+    160.0,
+    -106.0,
+    1.0
+   ]
+  },
+  {
+   "component": "Striker_Cartridges",
+   "body": "Saddle_17-4PH_H1025_5.1x10x1.2_bonded (3)",
+   "volume_mm3": 51.549,
+   "material": "Steel",
+   "mass_g": 0.405,
+   "bbox_mm": [
+    151.45,
+    -116.0,
+    -9.85,
+    156.55,
+    -106.0,
+    -8.65
+   ]
+  },
+  {
+   "component": "Striker_Cartridges",
+   "body": "Striker_Lug_V56_6061_slot_up1.2_for_saddle (4)",
+   "volume_mm3": 2062.314,
+   "material": "Steel",
+   "mass_g": 16.189,
+   "bbox_mm": [
+    -160.0,
+    84.0,
+    -28.0,
+    -150.0,
+    94.0,
+    1.0
+   ]
+  },
+  {
+   "component": "Striker_Cartridges",
+   "body": "Saddle_17-4PH_H1025_5.1x10x1.2_bonded (4)",
+   "volume_mm3": 51.549,
+   "material": "Steel",
+   "mass_g": 0.405,
+   "bbox_mm": [
+    -156.55,
+    84.0,
+    -9.85,
+    -151.45,
+    94.0,
+    -8.65
+   ]
+  },
+  {
+   "component": "Striker_Cartridges",
+   "body": "Striker_Lug_V56_6061_slot_up1.2_for_saddle (5)",
+   "volume_mm3": 2062.314,
+   "material": "Steel",
+   "mass_g": 16.189,
+   "bbox_mm": [
+    -160.0,
+    106.0,
+    -28.0,
+    -150.0,
+    116.0,
+    1.0
+   ]
+  },
+  {
+   "component": "Striker_Cartridges",
+   "body": "Saddle_17-4PH_H1025_5.1x10x1.2_bonded (5)",
+   "volume_mm3": 51.549,
+   "material": "Steel",
+   "mass_g": 0.405,
+   "bbox_mm": [
+    -156.55,
+    106.0,
+    -9.85,
+    -151.45,
+    116.0,
+    -8.65
+   ]
+  },
+  {
+   "component": "Striker_Cartridges",
+   "body": "Striker_Lug_V56_6061_slot_up1.2_for_saddle (6)",
+   "volume_mm3": 2062.314,
+   "material": "Steel",
+   "mass_g": 16.189,
+   "bbox_mm": [
+    -160.0,
+    -94.0,
+    -28.0,
+    -150.0,
+    -84.0,
+    1.0
+   ]
+  },
+  {
+   "component": "Striker_Cartridges",
+   "body": "Saddle_17-4PH_H1025_5.1x10x1.2_bonded (6)",
+   "volume_mm3": 51.549,
+   "material": "Steel",
+   "mass_g": 0.405,
+   "bbox_mm": [
+    -156.55,
+    -94.0,
+    -9.85,
+    -151.45,
+    -84.0,
+    -8.65
+   ]
+  },
+  {
+   "component": "Striker_Cartridges",
+   "body": "Striker_Lug_V56_6061_slot_up1.2_for_saddle (7)",
+   "volume_mm3": 2062.314,
+   "material": "Steel",
+   "mass_g": 16.189,
+   "bbox_mm": [
+    -160.0,
+    -116.0,
+    -28.0,
+    -150.0,
+    -106.0,
+    1.0
+   ]
+  },
+  {
+   "component": "Striker_Cartridges",
+   "body": "Saddle_17-4PH_H1025_5.1x10x1.2_bonded (7)",
+   "volume_mm3": 51.549,
+   "material": "Steel",
+   "mass_g": 0.405,
+   "bbox_mm": [
+    -156.55,
+    -116.0,
+    -9.85,
+    -151.45,
+    -106.0,
+    -8.65
+   ]
+  },
+  {
+   "component": "V52_Cartridge_Hardware",
+   "body": "Screw_M3x25_ISO7380_A4",
+   "volume_mm3": 169.646,
+   "material": "Stainless Steel 316L",
+   "mass_g": 1.355,
+   "bbox_mm": [
+    139.0,
+    87.5,
+    -20.0,
+    163.0,
+    90.5,
+    -17.0
+   ]
+  },
+  {
+   "component": "V52_Cartridge_Hardware",
+   "body": "Nut_M3_ISO10511_A4",
+   "volume_mm3": 57.02,
+   "material": "Stainless Steel 316L",
+   "mass_g": 0.456,
+   "bbox_mm": [
+    139.6,
+    86.25,
+    -21.25,
+    142.0,
+    91.75,
+    -15.75
+   ]
+  },
+  {
+   "component": "V52_Cartridge_Hardware",
+   "body": "Screw_M3x25_ISO7380_A4 (1)",
+   "volume_mm3": 169.646,
+   "material": "Stainless Steel 316L",
+   "mass_g": 1.355,
+   "bbox_mm": [
+    139.0,
+    87.5,
+    -26.0,
+    163.0,
+    90.5,
+    -23.0
+   ]
+  },
+  {
+   "component": "V52_Cartridge_Hardware",
+   "body": "Nut_M3_ISO10511_A4 (1)",
+   "volume_mm3": 57.02,
+   "material": "Stainless Steel 316L",
+   "mass_g": 0.456,
+   "bbox_mm": [
+    139.6,
+    86.25,
+    -27.25,
+    142.0,
+    91.75,
+    -21.75
+   ]
+  },
+  {
+   "component": "V52_Cartridge_Hardware",
+   "body": "Screw_M3x25_ISO7380_A4 (2)",
+   "volume_mm3": 169.646,
+   "material": "Stainless Steel 316L",
+   "mass_g": 1.355,
+   "bbox_mm": [
+    139.0,
+    109.5,
+    -20.0,
+    163.0,
+    112.5,
+    -17.0
+   ]
+  },
+  {
+   "component": "V52_Cartridge_Hardware",
+   "body": "Nut_M3_ISO10511_A4 (2)",
+   "volume_mm3": 57.02,
+   "material": "Stainless Steel 316L",
+   "mass_g": 0.456,
+   "bbox_mm": [
+    139.6,
+    108.25,
+    -21.25,
+    142.0,
+    113.75,
+    -15.75
+   ]
+  },
+  {
+   "component": "V52_Cartridge_Hardware",
+   "body": "Screw_M3x25_ISO7380_A4 (3)",
+   "volume_mm3": 169.646,
+   "material": "Stainless Steel 316L",
+   "mass_g": 1.355,
+   "bbox_mm": [
+    139.0,
+    109.5,
+    -26.0,
+    163.0,
+    112.5,
+    -23.0
+   ]
+  },
+  {
+   "component": "V52_Cartridge_Hardware",
+   "body": "Nut_M3_ISO10511_A4 (3)",
+   "volume_mm3": 57.02,
+   "material": "Stainless Steel 316L",
+   "mass_g": 0.456,
+   "bbox_mm": [
+    139.6,
+    108.25,
+    -27.25,
+    142.0,
+    113.75,
+    -21.75
+   ]
+  },
+  {
+   "component": "V52_Cartridge_Hardware",
+   "body": "Screw_M3x25_ISO7380_A4 (4)",
+   "volume_mm3": 169.646,
+   "material": "Stainless Steel 316L",
+   "mass_g": 1.355,
+   "bbox_mm": [
+    139.0,
+    -90.5,
+    -20.0,
+    163.0,
+    -87.5,
+    -17.0
+   ]
+  },
+  {
+   "component": "V52_Cartridge_Hardware",
+   "body": "Nut_M3_ISO10511_A4 (4)",
+   "volume_mm3": 57.02,
+   "material": "Stainless Steel 316L",
+   "mass_g": 0.456,
+   "bbox_mm": [
+    139.6,
+    -91.75,
+    -21.25,
+    142.0,
+    -86.25,
+    -15.75
+   ]
+  },
+  {
+   "component": "V52_Cartridge_Hardware",
+   "body": "Screw_M3x25_ISO7380_A4 (5)",
+   "volume_mm3": 169.646,
+   "material": "Stainless Steel 316L",
+   "mass_g": 1.355,
+   "bbox_mm": [
+    139.0,
+    -90.5,
+    -26.0,
+    163.0,
+    -87.5,
+    -23.0
+   ]
+  },
+  {
+   "component": "V52_Cartridge_Hardware",
+   "body": "Nut_M3_ISO10511_A4 (5)",
+   "volume_mm3": 57.02,
+   "material": "Stainless Steel 316L",
+   "mass_g": 0.456,
+   "bbox_mm": [
+    139.6,
+    -91.75,
+    -27.25,
+    142.0,
+    -86.25,
+    -21.75
+   ]
+  },
+  {
+   "component": "V52_Cartridge_Hardware",
+   "body": "Screw_M3x25_ISO7380_A4 (6)",
+   "volume_mm3": 169.646,
+   "material": "Stainless Steel 316L",
+   "mass_g": 1.355,
+   "bbox_mm": [
+    139.0,
+    -112.5,
+    -20.0,
+    163.0,
+    -109.5,
+    -17.0
+   ]
+  },
+  {
+   "component": "V52_Cartridge_Hardware",
+   "body": "Nut_M3_ISO10511_A4 (6)",
+   "volume_mm3": 57.02,
+   "material": "Stainless Steel 316L",
+   "mass_g": 0.456,
+   "bbox_mm": [
+    139.6,
+    -113.75,
+    -21.25,
+    142.0,
+    -108.25,
+    -15.75
+   ]
+  },
+  {
+   "component": "V52_Cartridge_Hardware",
+   "body": "Screw_M3x25_ISO7380_A4 (7)",
+   "volume_mm3": 169.646,
+   "material": "Stainless Steel 316L",
+   "mass_g": 1.355,
+   "bbox_mm": [
+    139.0,
+    -112.5,
+    -26.0,
+    163.0,
+    -109.5,
+    -23.0
+   ]
+  },
+  {
+   "component": "V52_Cartridge_Hardware",
+   "body": "Nut_M3_ISO10511_A4 (7)",
+   "volume_mm3": 57.02,
+   "material": "Stainless Steel 316L",
+   "mass_g": 0.456,
+   "bbox_mm": [
+    139.6,
+    -113.75,
+    -27.25,
+    142.0,
+    -108.25,
+    -21.75
+   ]
+  },
+  {
+   "component": "V52_Cartridge_Hardware",
+   "body": "Screw_M3x25_ISO7380_A4 (8)",
+   "volume_mm3": 169.646,
+   "material": "Stainless Steel 316L",
+   "mass_g": 1.355,
+   "bbox_mm": [
+    -163.0,
+    87.5,
+    -20.0,
+    -139.0,
+    90.5,
+    -17.0
+   ]
+  },
+  {
+   "component": "V52_Cartridge_Hardware",
+   "body": "Nut_M3_ISO10511_A4 (8)",
+   "volume_mm3": 57.02,
+   "material": "Stainless Steel 316L",
+   "mass_g": 0.456,
+   "bbox_mm": [
+    -142.0,
+    86.25,
+    -21.25,
+    -139.6,
+    91.75,
+    -15.75
+   ]
+  },
+  {
+   "component": "V52_Cartridge_Hardware",
+   "body": "Screw_M3x25_ISO7380_A4 (9)",
+   "volume_mm3": 169.646,
+   "material": "Stainless Steel 316L",
+   "mass_g": 1.355,
+   "bbox_mm": [
+    -163.0,
+    87.5,
+    -26.0,
+    -139.0,
+    90.5,
+    -23.0
+   ]
+  },
+  {
+   "component": "V52_Cartridge_Hardware",
+   "body": "Nut_M3_ISO10511_A4 (9)",
+   "volume_mm3": 57.02,
+   "material": "Stainless Steel 316L",
+   "mass_g": 0.456,
+   "bbox_mm": [
+    -142.0,
+    86.25,
+    -27.25,
+    -139.6,
+    91.75,
+    -21.75
+   ]
+  },
+  {
+   "component": "V52_Cartridge_Hardware",
+   "body": "Screw_M3x25_ISO7380_A4 (10)",
+   "volume_mm3": 169.646,
+   "material": "Stainless Steel 316L",
+   "mass_g": 1.355,
+   "bbox_mm": [
+    -163.0,
+    109.5,
+    -20.0,
+    -139.0,
+    112.5,
+    -17.0
+   ]
+  },
+  {
+   "component": "V52_Cartridge_Hardware",
+   "body": "Nut_M3_ISO10511_A4 (10)",
+   "volume_mm3": 57.02,
+   "material": "Stainless Steel 316L",
+   "mass_g": 0.456,
+   "bbox_mm": [
+    -142.0,
+    108.25,
+    -21.25,
+    -139.6,
+    113.75,
+    -15.75
+   ]
+  },
+  {
+   "component": "V52_Cartridge_Hardware",
+   "body": "Screw_M3x25_ISO7380_A4 (11)",
+   "volume_mm3": 169.646,
+   "material": "Stainless Steel 316L",
+   "mass_g": 1.355,
+   "bbox_mm": [
+    -163.0,
+    109.5,
+    -26.0,
+    -139.0,
+    112.5,
+    -23.0
+   ]
+  },
+  {
+   "component": "V52_Cartridge_Hardware",
+   "body": "Nut_M3_ISO10511_A4 (11)",
+   "volume_mm3": 57.02,
+   "material": "Stainless Steel 316L",
+   "mass_g": 0.456,
+   "bbox_mm": [
+    -142.0,
+    108.25,
+    -27.25,
+    -139.6,
+    113.75,
+    -21.75
+   ]
+  },
+  {
+   "component": "V52_Cartridge_Hardware",
+   "body": "Screw_M3x25_ISO7380_A4 (12)",
+   "volume_mm3": 169.646,
+   "material": "Stainless Steel 316L",
+   "mass_g": 1.355,
+   "bbox_mm": [
+    -163.0,
+    -90.5,
+    -20.0,
+    -139.0,
+    -87.5,
+    -17.0
+   ]
+  },
+  {
+   "component": "V52_Cartridge_Hardware",
+   "body": "Nut_M3_ISO10511_A4 (12)",
+   "volume_mm3": 57.02,
+   "material": "Stainless Steel 316L",
+   "mass_g": 0.456,
+   "bbox_mm": [
+    -142.0,
+    -91.75,
+    -21.25,
+    -139.6,
+    -86.25,
+    -15.75
+   ]
+  },
+  {
+   "component": "V52_Cartridge_Hardware",
+   "body": "Screw_M3x25_ISO7380_A4 (13)",
+   "volume_mm3": 169.646,
+   "material": "Stainless Steel 316L",
+   "mass_g": 1.355,
+   "bbox_mm": [
+    -163.0,
+    -90.5,
+    -26.0,
+    -139.0,
+    -87.5,
+    -23.0
+   ]
+  },
+  {
+   "component": "V52_Cartridge_Hardware",
+   "body": "Nut_M3_ISO10511_A4 (13)",
+   "volume_mm3": 57.02,
+   "material": "Stainless Steel 316L",
+   "mass_g": 0.456,
+   "bbox_mm": [
+    -142.0,
+    -91.75,
+    -27.25,
+    -139.6,
+    -86.25,
+    -21.75
+   ]
+  },
+  {
+   "component": "V52_Cartridge_Hardware",
+   "body": "Screw_M3x25_ISO7380_A4 (14)",
+   "volume_mm3": 169.646,
+   "material": "Stainless Steel 316L",
+   "mass_g": 1.355,
+   "bbox_mm": [
+    -163.0,
+    -112.5,
+    -20.0,
+    -139.0,
+    -109.5,
+    -17.0
+   ]
+  },
+  {
+   "component": "V52_Cartridge_Hardware",
+   "body": "Nut_M3_ISO10511_A4 (14)",
+   "volume_mm3": 57.02,
+   "material": "Stainless Steel 316L",
+   "mass_g": 0.456,
+   "bbox_mm": [
+    -142.0,
+    -113.75,
+    -21.25,
+    -139.6,
+    -108.25,
+    -15.75
+   ]
+  },
+  {
+   "component": "V52_Cartridge_Hardware",
+   "body": "Screw_M3x25_ISO7380_A4 (15)",
+   "volume_mm3": 169.646,
+   "material": "Stainless Steel 316L",
+   "mass_g": 1.355,
+   "bbox_mm": [
+    -163.0,
+    -112.5,
+    -26.0,
+    -139.0,
+    -109.5,
+    -23.0
+   ]
+  },
+  {
+   "component": "V52_Cartridge_Hardware",
+   "body": "Nut_M3_ISO10511_A4 (15)",
+   "volume_mm3": 57.02,
+   "material": "Stainless Steel 316L",
+   "mass_g": 0.456,
+   "bbox_mm": [
+    -142.0,
+    -113.75,
+    -27.25,
+    -139.6,
+    -108.25,
+    -21.75
+   ]
+  },
+  {
+   "component": "V52_Cartridge_Hardware",
+   "body": "Backing_Strip_6061_32x16x2",
+   "volume_mm3": 951.366,
+   "material": "Aluminum 6061",
+   "mass_g": 2.569,
+   "bbox_mm": [
+    142.0,
+    84.0,
+    -29.5,
+    144.0,
+    116.0,
+    -13.5
+   ]
+  },
+  {
+   "component": "V52_Cartridge_Hardware",
+   "body": "Backing_Strip_6061_32x16x2 (1)",
+   "volume_mm3": 951.366,
+   "material": "Aluminum 6061",
+   "mass_g": 2.569,
+   "bbox_mm": [
+    142.0,
+    -116.0,
+    -29.5,
+    144.0,
+    -84.0,
+    -13.5
+   ]
+  },
+  {
+   "component": "V52_Cartridge_Hardware",
+   "body": "Backing_Strip_6061_32x16x2 (2)",
+   "volume_mm3": 951.366,
+   "material": "Aluminum 6061",
+   "mass_g": 2.569,
+   "bbox_mm": [
+    -144.0,
+    84.0,
+    -29.5,
+    -142.0,
+    116.0,
+    -13.5
+   ]
+  },
+  {
+   "component": "V52_Cartridge_Hardware",
+   "body": "Backing_Strip_6061_32x16x2 (3)",
+   "volume_mm3": 951.366,
+   "material": "Aluminum 6061",
+   "mass_g": 2.569,
+   "bbox_mm": [
+    -144.0,
+    -116.0,
+    -29.5,
+    -142.0,
+    -84.0,
+    -13.5
+   ]
+  },
+  {
+   "component": "V52_Gate_Hardware",
+   "body": "Screw_M3x8_ISO10642_A4_flap (1)",
+   "volume_mm3": 42.412,
+   "material": "Stainless Steel 316L",
+   "mass_g": 0.339,
+   "bbox_mm": [
+    -39.5,
+    26.5,
+    -291.0,
+    -36.5,
+    29.5,
+    -285.0
+   ]
+  },
+  {
+   "component": "V52_Gate_Hardware",
+   "body": "Screw_M3x8_ISO10642_A4_flap (3)",
+   "volume_mm3": 42.412,
+   "material": "Stainless Steel 316L",
+   "mass_g": 0.339,
+   "bbox_mm": [
+    -39.5,
+    -29.5,
+    -291.0,
+    -36.5,
+    -26.5,
+    -285.0
+   ]
+  },
+  {
+   "component": "V52_Gate_Hardware",
+   "body": "Spacer_PTFE_9.4x12x10_V59",
+   "volume_mm3": 436.996,
+   "material": "Acetal Resin, White",
+   "mass_g": 0.623,
+   "bbox_mm": [
+    -54.0,
+    32.0,
+    -293.0,
+    -42.0,
+    42.0,
+    -281.0
+   ]
+  },
+  {
+   "component": "V52_Gate_Hardware",
+   "body": "Spacer_PTFE_9.4x12x10_V59_n",
+   "volume_mm3": 436.996,
+   "material": "Acetal Resin, White",
+   "mass_g": 0.623,
+   "bbox_mm": [
+    -54.0,
+    -42.0,
+    -293.0,
+    -42.0,
+    -32.0,
+    -281.0
+   ]
+  },
+  {
+   "component": "V52_Gate_Hardware",
+   "body": "Screw_M3x8_ISO10642_A4-80_flap_V59",
+   "volume_mm3": 42.412,
+   "material": "Stainless Steel 316L",
+   "mass_g": 0.339,
+   "bbox_mm": [
+    -34.5,
+    26.5,
+    -291.0,
+    -31.5,
+    29.5,
+    -285.0
+   ]
+  },
+  {
+   "component": "V52_Gate_Hardware",
+   "body": "Screw_M3x8_ISO10642_A4-80_flap_V59_n",
+   "volume_mm3": 42.412,
+   "material": "Stainless Steel 316L",
+   "mass_g": 0.339,
+   "bbox_mm": [
+    -34.5,
+    -29.5,
+    -291.0,
+    -31.5,
+    -26.5,
+    -285.0
+   ]
+  },
+  {
+   "component": "V52_Gate_Hardware",
+   "body": "Hub_6061_hex8_V59",
+   "volume_mm3": 781.917,
+   "material": "Steel",
+   "mass_g": 6.138,
+   "bbox_mm": [
+    -54.25,
+    24.0,
+    -293.25,
+    -29.5,
+    32.0,
+    -280.75
+   ]
+  },
+  {
+   "component": "V52_Gate_Hardware",
+   "body": "Hub_6061_hex8_V59_n",
+   "volume_mm3": 781.917,
+   "material": "Steel",
+   "mass_g": 6.138,
+   "bbox_mm": [
+    -54.25,
+    -32.0,
+    -293.25,
+    -29.5,
+    -24.0,
+    -280.75
+   ]
+  },
+  {
+   "component": "V54_Gate_Linkage",
+   "body": "Servo_Crank_6061_R8_locktab_V59",
+   "volume_mm3": 2959.888,
+   "material": "Aluminum 6061",
+   "mass_g": 7.992,
+   "bbox_mm": [
+    -126.428,
+    78.5,
+    -293.501,
+    -90.5,
+    93.0,
+    -266.725
+   ]
+  },
+  {
+   "component": "V54_Gate_Linkage",
+   "body": "Clevis_Pin_D3x14.5_17-4PH_A_V59",
+   "volume_mm3": 102.494,
+   "material": "Stainless Steel 17-4 PH",
+   "mass_g": 0.799,
+   "bbox_mm": [
+    -107.5,
+    78.5,
+    -284.501,
+    -104.5,
+    93.0,
+    -281.501
+   ]
+  },
+  {
+   "component": "V54_Gate_Linkage",
+   "body": "Coupler_6061_59.666mm_V59",
+   "volume_mm3": 1647.111,
+   "material": "Aluminum 6061",
+   "mass_g": 4.447,
+   "bbox_mm": [
+    -109.5,
+    85.0,
+    -286.501,
+    -44.5,
+    90.0,
+    -265.5
+   ]
+  },
+  {
+   "component": "V54_Gate_Linkage",
+   "body": "Gate_Lever_6061_18mm_hex8_2cheek_V59",
+   "volume_mm3": 2427.728,
+   "material": "Aluminum 6061",
+   "mass_g": 6.555,
+   "bbox_mm": [
+    -56.0,
+    82.0,
+    -295.0,
+    -40.0,
+    95.5,
+    -263.0
+   ]
+  },
+  {
+   "component": "V54_Gate_Linkage",
+   "body": "Clevis_Pin_D3x13.5_17-4PH_B_V59",
+   "volume_mm3": 95.426,
+   "material": "Stainless Steel 17-4 PH",
+   "mass_g": 0.744,
+   "bbox_mm": [
+    -49.5,
+    82.0,
+    -270.5,
+    -46.5,
+    95.5,
+    -267.5
+   ]
+  },
+  {
+   "component": "V54_Gate_Seal",
+   "body": "Seal_Lip_Silicone_60ShA_4x3",
+   "volume_mm3": 264.0,
+   "material": "ABS Plastic",
+   "mass_g": 0.28,
+   "bbox_mm": [
+    -22.0,
+    -44.0,
+    -285.0,
+    22.0,
+    -42.0,
+    -282.0
+   ]
+  },
+  {
+   "component": "V54_Gate_Seal",
+   "body": "Seal_Lip_Silicone_60ShA_4x3 (1)",
+   "volume_mm3": 264.0,
+   "material": "ABS Plastic",
+   "mass_g": 0.28,
+   "bbox_mm": [
+    -22.0,
+    42.0,
+    -285.0,
+    22.0,
+    44.0,
+    -282.0
+   ]
+  },
+  {
+   "component": "V54_Gate_Seal",
+   "body": "Seal_Lip_Silicone_60ShA_4x3 (2)",
+   "volume_mm3": 264.0,
+   "material": "ABS Plastic",
+   "mass_g": 0.28,
+   "bbox_mm": [
+    42.0,
+    -22.0,
+    -285.0,
+    44.0,
+    22.0,
+    -282.0
+   ]
+  },
+  {
+   "component": "V55_Clamp_Drive",
+   "body": "Bushing_PTFE_bronze_backed_5x7x3",
+   "volume_mm3": 56.549,
+   "material": "Steel",
+   "mass_g": 0.444,
+   "bbox_mm": [
+    147.5,
+    5.0,
+    35.4,
+    154.5,
+    8.0,
+    42.4
+   ]
+  },
+  {
+   "component": "V55_Clamp_Drive",
+   "body": "Bushing_PTFE_bronze_backed_5x7x3 (1)",
+   "volume_mm3": 56.549,
+   "material": "Steel",
+   "mass_g": 0.444,
+   "bbox_mm": [
+    147.5,
+    -8.0,
+    35.4,
+    154.5,
+    -5.0,
+    42.4
+   ]
+  },
+  {
+   "component": "V55_Clamp_Drive",
+   "body": "Savox_SW-1210SG_envelope_71g",
+   "volume_mm3": 30782.16,
+   "material": "Steel",
+   "mass_g": 241.64,
+   "bbox_mm": [
+    82.8,
+    1.0,
+    27.5,
+    137.1,
+    41.7,
+    47.5
+   ]
+  },
+  {
+   "component": "V55_Clamp_Drive",
+   "body": "Bushing_PTFE_bronze_backed_5x7x3 (2)",
+   "volume_mm3": 56.549,
+   "material": "Steel",
+   "mass_g": 0.444,
+   "bbox_mm": [
+    -154.5,
+    5.0,
+    35.4,
+    -147.5,
+    8.0,
+    42.4
+   ]
+  },
+  {
+   "component": "V55_Clamp_Drive",
+   "body": "Bushing_PTFE_bronze_backed_5x7x3 (3)",
+   "volume_mm3": 56.549,
+   "material": "Steel",
+   "mass_g": 0.444,
+   "bbox_mm": [
+    -154.5,
+    -8.0,
+    35.4,
+    -147.5,
+    -5.0,
+    42.4
+   ]
+  },
+  {
+   "component": "V55_Clamp_Drive",
+   "body": "Savox_SW-1210SG_envelope_71g (1)",
+   "volume_mm3": 30782.16,
+   "material": "Steel",
+   "mass_g": 241.64,
+   "bbox_mm": [
+    -137.1,
+    1.0,
+    27.5,
+    -82.8,
+    41.7,
+    47.5
+   ]
+  },
+  {
+   "component": "V55_Clamp_Drive",
+   "body": "Shaft_Hanger_6061_plates_y5-8",
+   "volume_mm3": 2186.681,
+   "material": "Steel",
+   "mass_g": 17.165,
+   "bbox_mm": [
+    141.0,
+    -8.0,
+    33.5,
+    161.0,
+    8.0,
+    49.0
+   ]
+  },
+  {
+   "component": "V55_Clamp_Drive",
+   "body": "Lock_Stop_Pin_D3x16_316",
+   "volume_mm3": 113.097,
+   "material": "Steel",
+   "mass_g": 0.888,
+   "bbox_mm": [
+    157.11,
+    -8.0,
+    39.87,
+    160.11,
+    8.0,
+    42.87
+   ]
+  },
+  {
+   "component": "V55_Clamp_Drive",
+   "body": "Drive_Coupler_6061_L32",
+   "volume_mm3": 526.292,
+   "material": "Steel",
+   "mass_g": 4.131,
+   "bbox_mm": [
+    128.49,
+    -4.5,
+    24.85,
+    165.54,
+    -1.5,
+    38.59
+   ]
+  },
+  {
+   "component": "V55_Clamp_Drive",
+   "body": "Servo_Crank_6061_R15",
+   "volume_mm3": 372.141,
+   "material": "Steel",
+   "mass_g": 2.921,
+   "bbox_mm": [
+    114.0,
+    -1.5,
+    24.85,
+    134.49,
+    1.0,
+    43.5
+   ]
+  },
+  {
+   "component": "V55_Clamp_Drive",
+   "body": "Clevis_Pin_D3_316",
+   "volume_mm3": 45.946,
+   "material": "Steel",
+   "mass_g": 0.361,
+   "bbox_mm": [
+    161.04,
+    -5.0,
+    34.09,
+    164.04,
+    1.5,
+    37.09
+   ]
+  },
+  {
+   "component": "V55_Clamp_Drive",
+   "body": "Clevis_Pin_D3_316 (1)",
+   "volume_mm3": 45.946,
+   "material": "Steel",
+   "mass_g": 0.361,
+   "bbox_mm": [
+    129.99,
+    -5.0,
+    26.35,
+    132.99,
+    1.5,
+    29.35
+   ]
+  },
+  {
+   "component": "V55_Clamp_Drive",
+   "body": "Shaft_Hanger_6061_plates_y5-8 (1)",
+   "volume_mm3": 2186.681,
+   "material": "Steel",
+   "mass_g": 17.165,
+   "bbox_mm": [
+    -161.0,
+    -8.0,
+    33.5,
+    -141.0,
+    8.0,
+    49.0
+   ]
+  },
+  {
+   "component": "V55_Clamp_Drive",
+   "body": "Lock_Stop_Pin_D3x16_316 (1)",
+   "volume_mm3": 113.097,
+   "material": "Steel",
+   "mass_g": 0.888,
+   "bbox_mm": [
+    -160.11,
+    -8.0,
+    39.87,
+    -157.11,
+    8.0,
+    42.87
+   ]
+  },
+  {
+   "component": "V55_Clamp_Drive",
+   "body": "Drive_Coupler_6061_L32 (1)",
+   "volume_mm3": 526.292,
+   "material": "Steel",
+   "mass_g": 4.131,
+   "bbox_mm": [
+    -165.54,
+    -4.5,
+    24.85,
+    -128.49,
+    -1.5,
+    38.59
+   ]
+  },
+  {
+   "component": "V55_Clamp_Drive",
+   "body": "Servo_Crank_6061_R15 (1)",
+   "volume_mm3": 372.141,
+   "material": "Steel",
+   "mass_g": 2.921,
+   "bbox_mm": [
+    -134.49,
+    -1.5,
+    24.85,
+    -114.0,
+    1.0,
+    43.5
+   ]
+  },
+  {
+   "component": "V55_Clamp_Drive",
+   "body": "Clevis_Pin_D3_316 (2)",
+   "volume_mm3": 45.946,
+   "material": "Steel",
+   "mass_g": 0.361,
+   "bbox_mm": [
+    -164.04,
+    -5.0,
+    34.09,
+    -161.04,
+    1.5,
+    37.09
+   ]
+  },
+  {
+   "component": "V55_Clamp_Drive",
+   "body": "Clevis_Pin_D3_316 (3)",
+   "volume_mm3": 45.946,
+   "material": "Steel",
+   "mass_g": 0.361,
+   "bbox_mm": [
+    -132.99,
+    -5.0,
+    26.35,
+    -129.99,
+    1.5,
+    29.35
+   ]
+  },
+  {
+   "component": "V55_Clamp_Drive",
+   "body": "Drive_Lever_6061_R12_hub6",
+   "volume_mm3": 476.037,
+   "material": "Steel",
+   "mass_g": 3.737,
+   "bbox_mm": [
+    146.0,
+    -1.5,
+    32.59,
+    165.54,
+    4.5,
+    43.9
+   ]
+  },
+  {
+   "component": "V55_Clamp_Drive",
+   "body": "Drive_Lever_6061_R12_hub6 (1)",
+   "volume_mm3": 476.037,
+   "material": "Steel",
+   "mass_g": 3.737,
+   "bbox_mm": [
+    -165.54,
+    -1.5,
+    32.59,
+    -146.0,
+    4.5,
+    43.9
+   ]
+  },
+  {
+   "component": "V55_Clamp_Drive",
+   "body": "Clamp_Servo_Mount_6061_4.0",
+   "volume_mm3": 4669.8,
+   "material": "Steel",
+   "mass_g": 36.658,
+   "bbox_mm": [
+    -137.1,
+    41.9,
+    27.5,
+    -82.8,
+    45.9,
+    49.0
+   ]
+  },
+  {
+   "component": "V55_Clamp_Drive",
+   "body": "Clamp_Servo_Mount_6061_4.0 (2)",
+   "volume_mm3": 4669.8,
+   "material": "Steel",
+   "mass_g": 36.658,
+   "bbox_mm": [
+    82.8,
+    41.9,
+    27.5,
+    137.1,
+    45.9,
+    49.0
+   ]
+  },
+  {
+   "component": "V59_Throat_Shroud",
+   "body": "Throat_Shroud_ASA_28mm_V59",
+   "volume_mm3": 41613.574,
+   "material": "Steel",
+   "mass_g": 326.667,
+   "bbox_mm": [
+    -62.0,
+    -60.0,
+    -313.0,
+    60.0,
+    60.0,
+    -285.0
+   ]
+  },
+  {
+   "component": "V59_Throat_Shroud",
+   "body": "HeatSet_Insert_M3x5.7_Brass_shroud_V59",
+   "volume_mm3": 54.438,
+   "material": "Brass",
+   "mass_g": 0.462,
+   "bbox_mm": [
+    52.7,
+    49.7,
+    -285.0,
+    57.3,
+    54.3,
+    -279.3
+   ]
+  },
+  {
+   "component": "V59_Throat_Shroud",
+   "body": "Screw_M3x8_ISO7380_A4_shroud_V59",
+   "volume_mm3": 98.653,
+   "material": "Stainless Steel 316L",
+   "mass_g": 0.788,
+   "bbox_mm": [
+    52.15,
+    49.15,
+    -289.15,
+    57.85,
+    54.85,
+    -279.5
+   ]
+  },
+  {
+   "component": "V59_Throat_Shroud",
+   "body": "HeatSet_Insert_M3x5.7_Brass_shroud_V59 (1)",
+   "volume_mm3": 54.438,
+   "material": "Brass",
+   "mass_g": 0.462,
+   "bbox_mm": [
+    52.7,
+    -54.3,
+    -285.0,
+    57.3,
+    -49.7,
+    -279.3
+   ]
+  },
+  {
+   "component": "V59_Throat_Shroud",
+   "body": "Screw_M3x8_ISO7380_A4_shroud_V59 (1)",
+   "volume_mm3": 98.653,
+   "material": "Stainless Steel 316L",
+   "mass_g": 0.788,
+   "bbox_mm": [
+    52.15,
+    -54.85,
+    -289.15,
+    57.85,
+    -49.15,
+    -279.5
+   ]
+  },
+  {
+   "component": "V59_Throat_Shroud",
+   "body": "HeatSet_Insert_M3x5.7_Brass_shroud_V59 (2)",
+   "volume_mm3": 54.438,
+   "material": "Brass",
+   "mass_g": 0.462,
+   "bbox_mm": [
+    -59.3,
+    52.7,
+    -285.0,
+    -54.7,
+    57.3,
+    -279.3
+   ]
+  },
+  {
+   "component": "V59_Throat_Shroud",
+   "body": "Screw_M3x8_ISO7380_A4_shroud_V59 (2)",
+   "volume_mm3": 98.653,
+   "material": "Stainless Steel 316L",
+   "mass_g": 0.788,
+   "bbox_mm": [
+    -59.85,
+    52.15,
+    -289.15,
+    -54.15,
+    57.85,
+    -279.5
+   ]
+  },
+  {
+   "component": "V59_Throat_Shroud",
+   "body": "HeatSet_Insert_M3x5.7_Brass_shroud_V59 (3)",
+   "volume_mm3": 54.438,
+   "material": "Brass",
+   "mass_g": 0.462,
+   "bbox_mm": [
+    -59.3,
+    -57.3,
+    -285.0,
+    -54.7,
+    -52.7,
+    -279.3
+   ]
+  },
+  {
+   "component": "V59_Throat_Shroud",
+   "body": "Screw_M3x8_ISO7380_A4_shroud_V59 (3)",
+   "volume_mm3": 98.653,
+   "material": "Stainless Steel 316L",
+   "mass_g": 0.788,
+   "bbox_mm": [
+    -59.85,
+    -57.85,
+    -289.15,
+    -54.15,
+    -52.15,
+    -279.5
+   ]
+  },
+  {
+   "component": "V64_Limiters",
+   "body": "DF64_Limiter_Striker_01",
+   "volume_mm3": 25.786,
+   "material": "Stainless Steel 316L",
+   "mass_g": 0.206,
+   "bbox_mm": [
+    -150.0,
+    -113.0,
+    -26.5,
+    -144.3,
+    -109.0,
+    -22.5
+   ]
+  },
+  {
+   "component": "V64_Limiters",
+   "body": "DF64_Limiter_Striker_02",
+   "volume_mm3": 25.786,
+   "material": "Stainless Steel 316L",
+   "mass_g": 0.206,
+   "bbox_mm": [
+    -150.0,
+    -113.0,
+    -20.5,
+    -144.3,
+    -109.0,
+    -16.5
+   ]
+  },
+  {
+   "component": "V64_Limiters",
+   "body": "DF64_Limiter_Striker_03",
+   "volume_mm3": 25.786,
+   "material": "Stainless Steel 316L",
+   "mass_g": 0.206,
+   "bbox_mm": [
+    -150.0,
+    -91.0,
+    -26.5,
+    -144.3,
+    -87.0,
+    -22.5
+   ]
+  },
+  {
+   "component": "V64_Limiters",
+   "body": "DF64_Limiter_Striker_04",
+   "volume_mm3": 25.786,
+   "material": "Stainless Steel 316L",
+   "mass_g": 0.206,
+   "bbox_mm": [
+    -150.0,
+    -91.0,
+    -20.5,
+    -144.3,
+    -87.0,
+    -16.5
+   ]
+  },
+  {
+   "component": "V64_Limiters",
+   "body": "DF64_Limiter_Striker_05",
+   "volume_mm3": 25.786,
+   "material": "Stainless Steel 316L",
+   "mass_g": 0.206,
+   "bbox_mm": [
+    -150.0,
+    109.0,
+    -26.5,
+    -144.3,
+    113.0,
+    -22.5
+   ]
+  },
+  {
+   "component": "V64_Limiters",
+   "body": "DF64_Limiter_Striker_06",
+   "volume_mm3": 25.786,
+   "material": "Stainless Steel 316L",
+   "mass_g": 0.206,
+   "bbox_mm": [
+    -150.0,
+    109.0,
+    -20.5,
+    -144.3,
+    113.0,
+    -16.5
+   ]
+  },
+  {
+   "component": "V64_Limiters",
+   "body": "DF64_Limiter_Striker_07",
+   "volume_mm3": 25.786,
+   "material": "Stainless Steel 316L",
+   "mass_g": 0.206,
+   "bbox_mm": [
+    -150.0,
+    87.0,
+    -26.5,
+    -144.3,
+    91.0,
+    -22.5
+   ]
+  },
+  {
+   "component": "V64_Limiters",
+   "body": "DF64_Limiter_Striker_08",
+   "volume_mm3": 25.786,
+   "material": "Stainless Steel 316L",
+   "mass_g": 0.206,
+   "bbox_mm": [
+    -150.0,
+    87.0,
+    -20.5,
+    -144.3,
+    91.0,
+    -16.5
+   ]
+  },
+  {
+   "component": "V64_Limiters",
+   "body": "DF64_Limiter_Striker_09",
+   "volume_mm3": 25.786,
+   "material": "Stainless Steel 316L",
+   "mass_g": 0.206,
+   "bbox_mm": [
+    144.3,
+    -113.0,
+    -26.5,
+    150.0,
+    -109.0,
+    -22.5
+   ]
+  },
+  {
+   "component": "V64_Limiters",
+   "body": "DF64_Limiter_Striker_10",
+   "volume_mm3": 25.786,
+   "material": "Stainless Steel 316L",
+   "mass_g": 0.206,
+   "bbox_mm": [
+    144.3,
+    -113.0,
+    -20.5,
+    150.0,
+    -109.0,
+    -16.5
+   ]
+  },
+  {
+   "component": "V64_Limiters",
+   "body": "DF64_Limiter_Striker_11",
+   "volume_mm3": 25.786,
+   "material": "Stainless Steel 316L",
+   "mass_g": 0.206,
+   "bbox_mm": [
+    144.3,
+    -91.0,
+    -26.5,
+    150.0,
+    -87.0,
+    -22.5
+   ]
+  },
+  {
+   "component": "V64_Limiters",
+   "body": "DF64_Limiter_Striker_12",
+   "volume_mm3": 25.786,
+   "material": "Stainless Steel 316L",
+   "mass_g": 0.206,
+   "bbox_mm": [
+    144.3,
+    -91.0,
+    -20.5,
+    150.0,
+    -87.0,
+    -16.5
+   ]
+  },
+  {
+   "component": "V64_Limiters",
+   "body": "DF64_Limiter_Striker_13",
+   "volume_mm3": 25.786,
+   "material": "Stainless Steel 316L",
+   "mass_g": 0.206,
+   "bbox_mm": [
+    144.3,
+    109.0,
+    -26.5,
+    150.0,
+    113.0,
+    -22.5
+   ]
+  },
+  {
+   "component": "V64_Limiters",
+   "body": "DF64_Limiter_Striker_14",
+   "volume_mm3": 25.786,
+   "material": "Stainless Steel 316L",
+   "mass_g": 0.206,
+   "bbox_mm": [
+    144.3,
+    109.0,
+    -20.5,
+    150.0,
+    113.0,
+    -16.5
+   ]
+  },
+  {
+   "component": "V64_Limiters",
+   "body": "DF64_Limiter_Striker_15",
+   "volume_mm3": 25.786,
+   "material": "Stainless Steel 316L",
+   "mass_g": 0.206,
+   "bbox_mm": [
+    144.3,
+    87.0,
+    -26.5,
+    150.0,
+    91.0,
+    -22.5
+   ]
+  },
+  {
+   "component": "V64_Limiters",
+   "body": "DF64_Limiter_Striker_16",
+   "volume_mm3": 25.786,
+   "material": "Stainless Steel 316L",
+   "mass_g": 0.206,
+   "bbox_mm": [
+    144.3,
+    87.0,
+    -20.5,
+    150.0,
+    91.0,
+    -16.5
+   ]
+  },
+  {
+   "component": "V64_Limiters",
+   "body": "DF64_Limiter_ArmClamp_17",
+   "volume_mm3": 156.225,
+   "material": "Stainless Steel 316L",
+   "mass_g": 1.248,
+   "bbox_mm": [
+    -9.5,
+    46.5,
+    -276.8,
+    -4.5,
+    51.5,
+    -262.0
+   ]
+  },
+  {
+   "component": "V64_Limiters",
+   "body": "DF64_Limiter_ArmClamp_18",
+   "volume_mm3": 156.225,
+   "material": "Stainless Steel 316L",
+   "mass_g": 1.248,
+   "bbox_mm": [
+    -31.5,
+    46.5,
+    -276.8,
+    -26.5,
+    51.5,
+    -262.0
+   ]
+  },
+  {
+   "component": "V64_Limiters",
+   "body": "DF64_Limiter_ArmClampUpper_19",
+   "volume_mm3": 73.288,
+   "material": "Stainless Steel 316L",
+   "mass_g": 0.586,
+   "bbox_mm": [
+    -31.515,
+    46.424,
+    -256.943,
+    -26.515,
+    51.424,
+    -250.0
+   ]
+  },
+  {
+   "component": "V63_Landing_Legs",
+   "body": "V63_Leg_Fitting_FL",
+   "volume_mm3": 15686.851,
+   "material": "Aluminum 6061",
+   "mass_g": 42.354,
+   "bbox_mm": [
+    150.5,
+    82.0,
+    -58.0,
+    181.0,
+    118.0,
+    -15.0
+   ]
+  },
+  {
+   "component": "V63_Landing_Legs",
+   "body": "V63_Leg_Tube_FL",
+   "volume_mm3": 20602.774,
+   "material": "Aluminum 6061",
+   "mass_g": 55.627,
+   "bbox_mm": [
+    159.181,
+    92.181,
+    -323.104,
+    238.603,
+    171.603,
+    -30.607
+   ]
+  },
+  {
+   "component": "V63_Landing_Legs",
+   "body": "V63_Foot_Rod_FL",
+   "volume_mm3": 6186.016,
+   "material": "Aluminum 6061",
+   "mass_g": 16.702,
+   "bbox_mm": [
+    214.684,
+    147.684,
+    -350.833,
+    242.017,
+    175.017,
+    -273.979
+   ]
+  },
+  {
+   "component": "V63_Landing_Legs",
+   "body": "V63_Foot_Spring_FL",
+   "volume_mm3": 1748.61,
+   "material": "Aluminum 6061",
+   "mass_g": 4.721,
+   "bbox_mm": [
+    215.319,
+    148.319,
+    -322.596,
+    236.941,
+    169.941,
+    -276.842
+   ]
+  },
+  {
+   "component": "V63_Landing_Legs",
+   "body": "V63_Foot_FL",
+   "volume_mm3": 5654.867,
+   "material": "ABS Plastic",
+   "mass_g": 5.994,
+   "bbox_mm": [
+    222.13,
+    155.13,
+    -358.0,
+    252.13,
+    185.13,
+    -350.0
+   ]
+  },
+  {
+   "component": "V63_Landing_Legs",
+   "body": "V63_Leg_Fitting_FR",
+   "volume_mm3": 15688.46,
+   "material": "Aluminum 6061",
+   "mass_g": 42.359,
+   "bbox_mm": [
+    150.5,
+    -118.0,
+    -58.0,
+    181.0,
+    -82.0,
+    -15.0
+   ]
+  },
+  {
+   "component": "V63_Landing_Legs",
+   "body": "V63_Leg_Tube_FR",
+   "volume_mm3": 20602.774,
+   "material": "Aluminum 6061",
+   "mass_g": 55.627,
+   "bbox_mm": [
+    159.181,
+    -171.603,
+    -323.104,
+    238.603,
+    -92.181,
+    -30.607
+   ]
+  },
+  {
+   "component": "V63_Landing_Legs",
+   "body": "V63_Foot_Rod_FR",
+   "volume_mm3": 6186.016,
+   "material": "Aluminum 6061",
+   "mass_g": 16.702,
+   "bbox_mm": [
+    214.684,
+    -175.017,
+    -350.833,
+    242.017,
+    -147.684,
+    -273.979
+   ]
+  },
+  {
+   "component": "V63_Landing_Legs",
+   "body": "V63_Foot_Spring_FR",
+   "volume_mm3": 1748.61,
+   "material": "Aluminum 6061",
+   "mass_g": 4.721,
+   "bbox_mm": [
+    215.319,
+    -169.941,
+    -322.596,
+    236.941,
+    -148.319,
+    -276.842
+   ]
+  },
+  {
+   "component": "V63_Landing_Legs",
+   "body": "V63_Foot_FR",
+   "volume_mm3": 5654.867,
+   "material": "ABS Plastic",
+   "mass_g": 5.994,
+   "bbox_mm": [
+    222.13,
+    -185.13,
+    -358.0,
+    252.13,
+    -155.13,
+    -350.0
+   ]
+  },
+  {
+   "component": "V63_Landing_Legs",
+   "body": "V63_Leg_Fitting_BL",
+   "volume_mm3": 15686.554,
+   "material": "Aluminum 6061",
+   "mass_g": 42.354,
+   "bbox_mm": [
+    -181.0,
+    82.0,
+    -58.0,
+    -150.5,
+    118.0,
+    -15.0
+   ]
+  },
+  {
+   "component": "V63_Landing_Legs",
+   "body": "V63_Leg_Tube_BL",
+   "volume_mm3": 20602.774,
+   "material": "Aluminum 6061",
+   "mass_g": 55.627,
+   "bbox_mm": [
+    -238.603,
+    92.181,
+    -323.104,
+    -159.181,
+    171.603,
+    -30.607
+   ]
+  },
+  {
+   "component": "V63_Landing_Legs",
+   "body": "V63_Foot_Rod_BL",
+   "volume_mm3": 6186.016,
+   "material": "Aluminum 6061",
+   "mass_g": 16.702,
+   "bbox_mm": [
+    -242.017,
+    147.684,
+    -350.833,
+    -214.684,
+    175.017,
+    -273.979
+   ]
+  },
+  {
+   "component": "V63_Landing_Legs",
+   "body": "V63_Foot_Spring_BL",
+   "volume_mm3": 1748.61,
+   "material": "Aluminum 6061",
+   "mass_g": 4.721,
+   "bbox_mm": [
+    -236.941,
+    148.319,
+    -322.596,
+    -215.319,
+    169.941,
+    -276.842
+   ]
+  },
+  {
+   "component": "V63_Landing_Legs",
+   "body": "V63_Foot_BL",
+   "volume_mm3": 5654.867,
+   "material": "ABS Plastic",
+   "mass_g": 5.994,
+   "bbox_mm": [
+    -252.13,
+    155.13,
+    -358.0,
+    -222.13,
+    185.13,
+    -350.0
+   ]
+  },
+  {
+   "component": "V63_Landing_Legs",
+   "body": "V63_Leg_Fitting_BR",
+   "volume_mm3": 15686.554,
+   "material": "Aluminum 6061",
+   "mass_g": 42.354,
+   "bbox_mm": [
+    -181.0,
+    -118.0,
+    -58.0,
+    -150.5,
+    -82.0,
+    -15.0
+   ]
+  },
+  {
+   "component": "V63_Landing_Legs",
+   "body": "V63_Leg_Tube_BR",
+   "volume_mm3": 20602.774,
+   "material": "Aluminum 6061",
+   "mass_g": 55.627,
+   "bbox_mm": [
+    -238.603,
+    -171.603,
+    -323.104,
+    -159.181,
+    -92.181,
+    -30.607
+   ]
+  },
+  {
+   "component": "V63_Landing_Legs",
+   "body": "V63_Foot_Rod_BR",
+   "volume_mm3": 6186.016,
+   "material": "Aluminum 6061",
+   "mass_g": 16.702,
+   "bbox_mm": [
+    -242.017,
+    -175.017,
+    -350.833,
+    -214.684,
+    -147.684,
+    -273.979
+   ]
+  },
+  {
+   "component": "V63_Landing_Legs",
+   "body": "V63_Foot_Spring_BR",
+   "volume_mm3": 1748.61,
+   "material": "Aluminum 6061",
+   "mass_g": 4.721,
+   "bbox_mm": [
+    -236.941,
+    -169.941,
+    -322.596,
+    -215.319,
+    -148.319,
+    -276.842
+   ]
+  },
+  {
+   "component": "V63_Landing_Legs",
+   "body": "V63_Foot_BR",
+   "volume_mm3": 5654.867,
+   "material": "ABS Plastic",
+   "mass_g": 5.994,
+   "bbox_mm": [
+    -252.13,
+    -185.13,
+    -358.0,
+    -222.13,
+    -155.13,
+    -350.0
+   ]
+  },
+  {
+   "component": "V63_Landing_Legs",
+   "body": "V63_Ring_Tube_1",
+   "volume_mm3": 26225.548,
+   "material": "Aluminum 6061",
+   "mass_g": 70.809,
+   "bbox_mm": [
+    -219.68,
+    150.68,
+    -316.711,
+    219.68,
+    170.68,
+    -296.711
+   ]
+  },
+  {
+   "component": "V63_Landing_Legs",
+   "body": "V63_Ring_Tube_2",
+   "volume_mm3": 26225.548,
+   "material": "Aluminum 6061",
+   "mass_g": 70.809,
+   "bbox_mm": [
+    -219.68,
+    -170.68,
+    -316.711,
+    219.68,
+    -150.68,
+    -296.711
+   ]
+  },
+  {
+   "component": "V63_Landing_Legs",
+   "body": "V63_Ring_Tube_3",
+   "volume_mm3": 18227.053,
+   "material": "Aluminum 6061",
+   "mass_g": 49.213,
+   "bbox_mm": [
+    217.68,
+    -152.68,
+    -316.711,
+    237.68,
+    152.68,
+    -296.711
+   ]
+  },
+  {
+   "component": "V63_Landing_Legs",
+   "body": "V63_Ring_Tube_4",
+   "volume_mm3": 18227.053,
+   "material": "Aluminum 6061",
+   "mass_g": 49.213,
+   "bbox_mm": [
+    -237.68,
+    -152.68,
+    -316.711,
+    -217.68,
+    152.68,
+    -296.711
+   ]
+  }
+ ],
+ "total_bodies": 275,
+ "total_mass_g": 11102.798
+}

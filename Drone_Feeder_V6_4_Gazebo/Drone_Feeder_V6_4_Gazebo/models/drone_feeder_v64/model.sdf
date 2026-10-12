@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<sdf version="1.7">
+  <model name="drone_feeder_v64">
+    <static>true</static>
+    <link name="assembly">
+      <visual name="cad_visual">
+        <geometry><mesh><uri>model://drone_feeder_v64/meshes/feeder.stl</uri></mesh></geometry>
+        <material><ambient>0.65 0.68 0.72 1</ambient><diffuse>0.65 0.68 0.72 1</diffuse></material>
+      </visual>
+      <collision name="cad_collision">
+        <geometry><mesh><uri>model://drone_feeder_v64/meshes/feeder.stl</uri></mesh></geometry>
+      </collision>
+    </link>
+  </model>
+</sdf>

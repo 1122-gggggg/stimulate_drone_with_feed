@@ -6,12 +6,14 @@ Gazebo Harmonic + ArduPilot SITL 模擬：Anji UA-1400H1-C-S 級大型四旋翼�
 
 | 路徑 | 用途 |
 |---|---|
-| `generator/gen_bigquad.py` | 產生機體 / 世界檔：質量、慣量、旋翼、風阻、投料機（飼料拆成 20 塊可分離方塊）、障礙物 |
+| `generator/gen_bigquad.py` | 產生機體 / 世界檔：質量、慣量、旋翼、風阻、投料機（`Drone_Feeder_V6_4_Gazebo` 的 CAD 網格掛在機腹，質量用方塊近似；飼料拆成 20 塊可分離方塊）、障礙物 |
 | `generator/windfeed.py` | 即時風場送進 Gazebo：對數風剖面＋OU 紊流；可接 ERA5、NCDR 觀測、OpenFOAM 風場 |
 | `generator/bigquad.parm` | ArduPilot 參數（可載入 Mission Planner） |
 | `scripts/control.py` | Python 控制 `Drone` 類別：`arm / takeoff / goto / velocity / land / dispense` |
 | `scripts/feed_demo.py` | 範例：起飛、邊飛邊放料、返航降落 |
 | `scripts/xiyu.sh` | 一鍵啟動：投料機＋障礙物＋西嶼風（NCDR＋CFD） |
+| `generator/gen_twin.py` `scripts/twin.sh` `scripts/mirror.py` | **數位孿生**：把真實無人機的 MAVLink 遙測鏡射進 Gazebo（見下節） |
+| `Drone_Feeder_V6_4_Gazebo/` | 正式尺寸投料裝置 V6.4 的 CAD 網格與 STEP（靜態剛體，無質量／關節資料） |
 | `scripts/serve.sh` `run_sim.sh` `run_gui.sh` `pen.sh` | 較底層的啟動腳本（原有） |
 | `wind_cfd/` | OpenFOAM 11 風場流程（`site.json` → `run_cfd.py` → `postprocess.py`） |
 | `wind_data/` | `penghu_era5.json`（ERA5）、`xiyu_ncdr.json`（NCDR 快照）、`xiyu_d022.npz`（CFD 風場，已算好） |
@@ -53,6 +55,34 @@ d.land()
 ```
 
 SITL 的三個 TCP 埠各只能一個連線：5760 給 Python、5762 給 `windfeed.py`（讀位置取樣風場）、5763 留給 Mission Planner（`tcp:127.0.0.1:5763`）。
+
+## 連接真實無人機（數位孿生）
+
+真機動、Gazebo 內的機體跟著動。真機由自己的飛控飛，模擬端**只讀遙測，不送任何指令**（除非加 `--request-rates`）。
+
+```bash
+GUI=1 bash scripts/twin.sh                                 # 起孿生世界：沒有 SITL、沒有機體物理，機體是靜態模型
+python3 scripts/mirror.py --conn udpin:0.0.0.0:14550       # 讀遙測，30 Hz 設定機體姿態
+```
+
+`mirror.py` 讀 `LOCAL_POSITION_NED`（位置、速度）與 `ATTITUDE`，換成 Gazebo 的 ENU/FLU 座標後呼叫 `/world/bigquad_twin/set_pose`。遙測封包間用速度外推位置（最多 0.5 s）。
+
+遙測來源（擇一）：
+
+| 方式 | `--conn` |
+|---|---|
+| Mission Planner（Windows）→ `Ctrl+F` → MAVLink → 轉發 UDP 到 WSL 的 IP:14550 | `udpin:0.0.0.0:14550` |
+| MAVProxy：`mavproxy.py --master=COMx,57600 --out=udp:<WSL IP>:14550` | `udpin:0.0.0.0:14550` |
+| 數傳／USB 直接接到 Linux（WSL2 需 `usbipd` 把 USB 掛進來） | `/dev/ttyUSB0 --baud 57600` |
+| 飛控 / 地面站的 TCP | `tcp:<ip>:5760` |
+
+WSL2 找 Windows 的 IP：`ip route show default | awk '{print $3}'`（用 mirrored networking 則可直接用 127.0.0.1）。
+
+注意：
+- 原點是真機 EKF 原點（解鎖／GPS 鎖定位置）；要放到地圖別處用 `--offset-n / --offset-e`。
+- 飛控要有位置估計（GPS、光流或動捕）才有 `LOCAL_POSITION_NED`；遙測速率太低會顯得一格一格的，可在飛控設 `SRn_POSITION` / `SRn_EXTRA1`，或加 `--request-rates`。
+- 孿生只呈現姿態與位置，不模擬風、馬達與投料；投料動作不會鏡射。
+- 沒有真機時可以拿 SITL 當替身測試：`sim_vehicle.py -v ArduCopter -f quad --no-mavproxy`，再 `--conn tcp:127.0.0.1:5762`（先讓別的程式連 5760 後 5762 才會開）。
 
 ## 風場
 
