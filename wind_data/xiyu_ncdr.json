@@ -1,0 +1,44 @@
+{
+ "source": "https://watch.ncdr.nat.gov.tw/watch_page_wind",
+ "windows": {
+  "max_1h": {
+   "mean": 3.5,
+   "gust": 5.5,
+   "gust_time": "23:48"
+  },
+  "max_3h": {
+   "mean": 3.5,
+   "gust": 5.8,
+   "gust_time": "23:48"
+  },
+  "max_6h": {
+   "mean": 3.5,
+   "gust": 5.8,
+   "gust_time": "23:48"
+  },
+  "max_12h": {
+   "mean": 8.8,
+   "gust": 13.3,
+   "gust_time": "16:46"
+  },
+  "max_24h": {
+   "mean": 8.8,
+   "gust": 13.5,
+   "gust_time": "06:43"
+  },
+  "max_48h": {
+   "mean": 11.4,
+   "gust": 17.8,
+   "gust_time": "16:46"
+  }
+ },
+ "station": {
+  "縣市": "澎湖縣",
+  "鄉鎮": "西嶼鄉",
+  "測站": "西嶼",
+  "測站代碼": "C0W120",
+  "lon": "119.460300",
+  "lat": "23.564300"
+ },
+ "fetched": "2026-10-13 00:04:22"
+}

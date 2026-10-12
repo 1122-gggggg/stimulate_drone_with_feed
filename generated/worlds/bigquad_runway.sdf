@@ -1,0 +1,340 @@
+<?xml version="1.0" ?>
+<sdf version="1.9">
+  <world name="bigquad_runway">
+    <physics name="1ms" type="ignore">
+      <max_step_size>0.001</max_step_size>
+      <real_time_factor>1.0</real_time_factor>
+    </physics>
+
+    <plugin filename="gz-sim-physics-system"
+      name="gz::sim::systems::Physics">
+    </plugin>
+    <plugin
+      filename="gz-sim-sensors-system"
+      name="gz::sim::systems::Sensors">
+      <render_engine>ogre2</render_engine>
+    </plugin>
+    <plugin filename="gz-sim-user-commands-system"
+      name="gz::sim::systems::UserCommands">
+    </plugin>
+    <plugin filename="gz-sim-scene-broadcaster-system"
+      name="gz::sim::systems::SceneBroadcaster">
+    </plugin>
+    <plugin filename="gz-sim-imu-system"
+      name="gz::sim::systems::Imu">
+    </plugin>
+    <plugin filename="gz-sim-navsat-system"
+      name="gz::sim::systems::NavSat">
+    </plugin>
+
+    <scene>
+      <ambient>1.0 1.0 1.0</ambient>
+      <background>0.8 0.8 0.8</background>
+      <sky></sky>
+    </scene>
+
+    <spherical_coordinates>
+      <latitude_deg>-35.363262</latitude_deg>
+      <longitude_deg>149.165237</longitude_deg>
+      <elevation>584</elevation>
+      <heading_deg>0</heading_deg>
+      <surface_model>EARTH_WGS84</surface_model>
+    </spherical_coordinates>
+
+    <light type="directional" name="sun">
+      <cast_shadows>true</cast_shadows>
+      <pose>0 0 10 0 0 0</pose>
+      <diffuse>0.8 0.8 0.8 1</diffuse>
+      <specular>0.8 0.8 0.8 1</specular>
+      <attenuation>
+        <range>1000</range>
+        <constant>0.9</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <direction>-0.5 0.1 -0.9</direction>
+    </light>
+
+    <model name="axes">
+      <static>1</static>
+      <link name="link">
+        <visual name="r">
+          <cast_shadows>0</cast_shadows>
+          <pose>5 0 0.1 0 0 0</pose>
+          <geometry>
+            <box>
+              <size>10 0.01 0.01</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>1 0 0 0.8</ambient>
+            <diffuse>1 0 0 0.8</diffuse>
+            <emissive>1 0 0 0.8</emissive>
+            <specular>0.5 0.5 0.5 0.8</specular>
+          </material>
+        </visual>
+        <visual name="g">
+          <cast_shadows>0</cast_shadows>
+          <pose>0 5 0.1 0 0 0</pose>
+          <geometry>
+            <box>
+              <size>0.01 10 0.01</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0 1 0 0.8</ambient>
+            <diffuse>0 1 0 0.8</diffuse>
+            <emissive>0 1 0 0.8</emissive>
+            <specular>0.5 0.5 0.5 0.8</specular>
+          </material>
+        </visual>
+        <visual name="b">
+          <cast_shadows>0</cast_shadows>
+          <pose>0 0 5.1 0 0 0</pose>
+          <geometry>
+            <box>
+              <size>0.01 0.01 10</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0 0 1 0.8</ambient>
+            <diffuse>0 0 1 0.8</diffuse>
+            <emissive>0 0 1 0.8</emissive>
+            <specular>0.5 0.5 0.5 0.8</specular>
+          </material>
+        </visual>
+        <sensor name="navsat_sensor" type="navsat">
+          <always_on>1</always_on>
+          <update_rate>1</update_rate>
+        </sensor>
+      </link>
+    </model>
+    
+    <include>
+      <uri>model://runway</uri>
+      <pose degrees="true">-29 545 0 0 0 363</pose>
+    </include>
+
+    <include>
+      <uri>model://bigquad</uri>
+      <pose degrees="true">0 0 0.64 0 0 90</pose>
+    </include>
+
+  
+    <wind><linear_velocity>0 0 0</linear_velocity></wind>
+    <plugin filename="gz-sim-wind-effects-system" name="gz::sim::systems::WindEffects">
+      <force_approximation_scaling_factor>0.39488</force_approximation_scaling_factor>
+    </plugin>
+
+    <model name='feed_0'>
+      <pose>0 0 0.2155 0 0 0</pose>
+      <link name='link'>
+        <inertial><mass>0.2500</mass><inertia><ixx>0.001104</ixx><iyy>0.001635</iyy><izz>0.002735</izz><ixy>0</ixy><ixz>0</ixz><iyz>0</iyz></inertia></inertial>
+        <collision name='c'><geometry><box><size>0.28 0.23 0.0099</size></box></geometry></collision>
+        <visual name='v'><geometry><box><size>0.28 0.23 0.0099</size></box></geometry>
+          <material><ambient>0.55 0.35 0.1 1</ambient><diffuse>0.75 0.5 0.15 1</diffuse></material></visual>
+      </link>
+    </model>
+
+    <model name='feed_1'>
+      <pose>0 0 0.2265 0 0 0</pose>
+      <link name='link'>
+        <inertial><mass>0.2500</mass><inertia><ixx>0.001104</ixx><iyy>0.001635</iyy><izz>0.002735</izz><ixy>0</ixy><ixz>0</ixz><iyz>0</iyz></inertia></inertial>
+        <collision name='c'><geometry><box><size>0.28 0.23 0.0099</size></box></geometry></collision>
+        <visual name='v'><geometry><box><size>0.28 0.23 0.0099</size></box></geometry>
+          <material><ambient>0.55 0.35 0.1 1</ambient><diffuse>0.75 0.5 0.15 1</diffuse></material></visual>
+      </link>
+    </model>
+
+    <model name='feed_2'>
+      <pose>0 0 0.2375 0 0 0</pose>
+      <link name='link'>
+        <inertial><mass>0.2500</mass><inertia><ixx>0.001104</ixx><iyy>0.001635</iyy><izz>0.002735</izz><ixy>0</ixy><ixz>0</ixz><iyz>0</iyz></inertia></inertial>
+        <collision name='c'><geometry><box><size>0.28 0.23 0.0099</size></box></geometry></collision>
+        <visual name='v'><geometry><box><size>0.28 0.23 0.0099</size></box></geometry>
+          <material><ambient>0.55 0.35 0.1 1</ambient><diffuse>0.75 0.5 0.15 1</diffuse></material></visual>
+      </link>
+    </model>
+
+    <model name='feed_3'>
+      <pose>0 0 0.2485 0 0 0</pose>
+      <link name='link'>
+        <inertial><mass>0.2500</mass><inertia><ixx>0.001104</ixx><iyy>0.001635</iyy><izz>0.002735</izz><ixy>0</ixy><ixz>0</ixz><iyz>0</iyz></inertia></inertial>
+        <collision name='c'><geometry><box><size>0.28 0.23 0.0099</size></box></geometry></collision>
+        <visual name='v'><geometry><box><size>0.28 0.23 0.0099</size></box></geometry>
+          <material><ambient>0.55 0.35 0.1 1</ambient><diffuse>0.75 0.5 0.15 1</diffuse></material></visual>
+      </link>
+    </model>
+
+    <model name='feed_4'>
+      <pose>0 0 0.2595 0 0 0</pose>
+      <link name='link'>
+        <inertial><mass>0.2500</mass><inertia><ixx>0.001104</ixx><iyy>0.001635</iyy><izz>0.002735</izz><ixy>0</ixy><ixz>0</ixz><iyz>0</iyz></inertia></inertial>
+        <collision name='c'><geometry><box><size>0.28 0.23 0.0099</size></box></geometry></collision>
+        <visual name='v'><geometry><box><size>0.28 0.23 0.0099</size></box></geometry>
+          <material><ambient>0.55 0.35 0.1 1</ambient><diffuse>0.75 0.5 0.15 1</diffuse></material></visual>
+      </link>
+    </model>
+
+    <model name='feed_5'>
+      <pose>0 0 0.2705 0 0 0</pose>
+      <link name='link'>
+        <inertial><mass>0.2500</mass><inertia><ixx>0.001104</ixx><iyy>0.001635</iyy><izz>0.002735</izz><ixy>0</ixy><ixz>0</ixz><iyz>0</iyz></inertia></inertial>
+        <collision name='c'><geometry><box><size>0.28 0.23 0.0099</size></box></geometry></collision>
+        <visual name='v'><geometry><box><size>0.28 0.23 0.0099</size></box></geometry>
+          <material><ambient>0.55 0.35 0.1 1</ambient><diffuse>0.75 0.5 0.15 1</diffuse></material></visual>
+      </link>
+    </model>
+
+    <model name='feed_6'>
+      <pose>0 0 0.2815 0 0 0</pose>
+      <link name='link'>
+        <inertial><mass>0.2500</mass><inertia><ixx>0.001104</ixx><iyy>0.001635</iyy><izz>0.002735</izz><ixy>0</ixy><ixz>0</ixz><iyz>0</iyz></inertia></inertial>
+        <collision name='c'><geometry><box><size>0.28 0.23 0.0099</size></box></geometry></collision>
+        <visual name='v'><geometry><box><size>0.28 0.23 0.0099</size></box></geometry>
+          <material><ambient>0.55 0.35 0.1 1</ambient><diffuse>0.75 0.5 0.15 1</diffuse></material></visual>
+      </link>
+    </model>
+
+    <model name='feed_7'>
+      <pose>0 0 0.2925 0 0 0</pose>
+      <link name='link'>
+        <inertial><mass>0.2500</mass><inertia><ixx>0.001104</ixx><iyy>0.001635</iyy><izz>0.002735</izz><ixy>0</ixy><ixz>0</ixz><iyz>0</iyz></inertia></inertial>
+        <collision name='c'><geometry><box><size>0.28 0.23 0.0099</size></box></geometry></collision>
+        <visual name='v'><geometry><box><size>0.28 0.23 0.0099</size></box></geometry>
+          <material><ambient>0.55 0.35 0.1 1</ambient><diffuse>0.75 0.5 0.15 1</diffuse></material></visual>
+      </link>
+    </model>
+
+    <model name='feed_8'>
+      <pose>0 0 0.3035 0 0 0</pose>
+      <link name='link'>
+        <inertial><mass>0.2500</mass><inertia><ixx>0.001104</ixx><iyy>0.001635</iyy><izz>0.002735</izz><ixy>0</ixy><ixz>0</ixz><iyz>0</iyz></inertia></inertial>
+        <collision name='c'><geometry><box><size>0.28 0.23 0.0099</size></box></geometry></collision>
+        <visual name='v'><geometry><box><size>0.28 0.23 0.0099</size></box></geometry>
+          <material><ambient>0.55 0.35 0.1 1</ambient><diffuse>0.75 0.5 0.15 1</diffuse></material></visual>
+      </link>
+    </model>
+
+    <model name='feed_9'>
+      <pose>0 0 0.3145 0 0 0</pose>
+      <link name='link'>
+        <inertial><mass>0.2500</mass><inertia><ixx>0.001104</ixx><iyy>0.001635</iyy><izz>0.002735</izz><ixy>0</ixy><ixz>0</ixz><iyz>0</iyz></inertia></inertial>
+        <collision name='c'><geometry><box><size>0.28 0.23 0.0099</size></box></geometry></collision>
+        <visual name='v'><geometry><box><size>0.28 0.23 0.0099</size></box></geometry>
+          <material><ambient>0.55 0.35 0.1 1</ambient><diffuse>0.75 0.5 0.15 1</diffuse></material></visual>
+      </link>
+    </model>
+
+    <model name='feed_10'>
+      <pose>0 0 0.3255 0 0 0</pose>
+      <link name='link'>
+        <inertial><mass>0.2500</mass><inertia><ixx>0.001104</ixx><iyy>0.001635</iyy><izz>0.002735</izz><ixy>0</ixy><ixz>0</ixz><iyz>0</iyz></inertia></inertial>
+        <collision name='c'><geometry><box><size>0.28 0.23 0.0099</size></box></geometry></collision>
+        <visual name='v'><geometry><box><size>0.28 0.23 0.0099</size></box></geometry>
+          <material><ambient>0.55 0.35 0.1 1</ambient><diffuse>0.75 0.5 0.15 1</diffuse></material></visual>
+      </link>
+    </model>
+
+    <model name='feed_11'>
+      <pose>0 0 0.3365 0 0 0</pose>
+      <link name='link'>
+        <inertial><mass>0.2500</mass><inertia><ixx>0.001104</ixx><iyy>0.001635</iyy><izz>0.002735</izz><ixy>0</ixy><ixz>0</ixz><iyz>0</iyz></inertia></inertial>
+        <collision name='c'><geometry><box><size>0.28 0.23 0.0099</size></box></geometry></collision>
+        <visual name='v'><geometry><box><size>0.28 0.23 0.0099</size></box></geometry>
+          <material><ambient>0.55 0.35 0.1 1</ambient><diffuse>0.75 0.5 0.15 1</diffuse></material></visual>
+      </link>
+    </model>
+
+    <model name='feed_12'>
+      <pose>0 0 0.3475 0 0 0</pose>
+      <link name='link'>
+        <inertial><mass>0.2500</mass><inertia><ixx>0.001104</ixx><iyy>0.001635</iyy><izz>0.002735</izz><ixy>0</ixy><ixz>0</ixz><iyz>0</iyz></inertia></inertial>
+        <collision name='c'><geometry><box><size>0.28 0.23 0.0099</size></box></geometry></collision>
+        <visual name='v'><geometry><box><size>0.28 0.23 0.0099</size></box></geometry>
+          <material><ambient>0.55 0.35 0.1 1</ambient><diffuse>0.75 0.5 0.15 1</diffuse></material></visual>
+      </link>
+    </model>
+
+    <model name='feed_13'>
+      <pose>0 0 0.3585 0 0 0</pose>
+      <link name='link'>
+        <inertial><mass>0.2500</mass><inertia><ixx>0.001104</ixx><iyy>0.001635</iyy><izz>0.002735</izz><ixy>0</ixy><ixz>0</ixz><iyz>0</iyz></inertia></inertial>
+        <collision name='c'><geometry><box><size>0.28 0.23 0.0099</size></box></geometry></collision>
+        <visual name='v'><geometry><box><size>0.28 0.23 0.0099</size></box></geometry>
+          <material><ambient>0.55 0.35 0.1 1</ambient><diffuse>0.75 0.5 0.15 1</diffuse></material></visual>
+      </link>
+    </model>
+
+    <model name='feed_14'>
+      <pose>0 0 0.3695 0 0 0</pose>
+      <link name='link'>
+        <inertial><mass>0.2500</mass><inertia><ixx>0.001104</ixx><iyy>0.001635</iyy><izz>0.002735</izz><ixy>0</ixy><ixz>0</ixz><iyz>0</iyz></inertia></inertial>
+        <collision name='c'><geometry><box><size>0.28 0.23 0.0099</size></box></geometry></collision>
+        <visual name='v'><geometry><box><size>0.28 0.23 0.0099</size></box></geometry>
+          <material><ambient>0.55 0.35 0.1 1</ambient><diffuse>0.75 0.5 0.15 1</diffuse></material></visual>
+      </link>
+    </model>
+
+    <model name='feed_15'>
+      <pose>0 0 0.3805 0 0 0</pose>
+      <link name='link'>
+        <inertial><mass>0.2500</mass><inertia><ixx>0.001104</ixx><iyy>0.001635</iyy><izz>0.002735</izz><ixy>0</ixy><ixz>0</ixz><iyz>0</iyz></inertia></inertial>
+        <collision name='c'><geometry><box><size>0.28 0.23 0.0099</size></box></geometry></collision>
+        <visual name='v'><geometry><box><size>0.28 0.23 0.0099</size></box></geometry>
+          <material><ambient>0.55 0.35 0.1 1</ambient><diffuse>0.75 0.5 0.15 1</diffuse></material></visual>
+      </link>
+    </model>
+
+    <model name='feed_16'>
+      <pose>0 0 0.3915 0 0 0</pose>
+      <link name='link'>
+        <inertial><mass>0.2500</mass><inertia><ixx>0.001104</ixx><iyy>0.001635</iyy><izz>0.002735</izz><ixy>0</ixy><ixz>0</ixz><iyz>0</iyz></inertia></inertial>
+        <collision name='c'><geometry><box><size>0.28 0.23 0.0099</size></box></geometry></collision>
+        <visual name='v'><geometry><box><size>0.28 0.23 0.0099</size></box></geometry>
+          <material><ambient>0.55 0.35 0.1 1</ambient><diffuse>0.75 0.5 0.15 1</diffuse></material></visual>
+      </link>
+    </model>
+
+    <model name='feed_17'>
+      <pose>0 0 0.4025 0 0 0</pose>
+      <link name='link'>
+        <inertial><mass>0.2500</mass><inertia><ixx>0.001104</ixx><iyy>0.001635</iyy><izz>0.002735</izz><ixy>0</ixy><ixz>0</ixz><iyz>0</iyz></inertia></inertial>
+        <collision name='c'><geometry><box><size>0.28 0.23 0.0099</size></box></geometry></collision>
+        <visual name='v'><geometry><box><size>0.28 0.23 0.0099</size></box></geometry>
+          <material><ambient>0.55 0.35 0.1 1</ambient><diffuse>0.75 0.5 0.15 1</diffuse></material></visual>
+      </link>
+    </model>
+
+    <model name='feed_18'>
+      <pose>0 0 0.4135 0 0 0</pose>
+      <link name='link'>
+        <inertial><mass>0.2500</mass><inertia><ixx>0.001104</ixx><iyy>0.001635</iyy><izz>0.002735</izz><ixy>0</ixy><ixz>0</ixz><iyz>0</iyz></inertia></inertial>
+        <collision name='c'><geometry><box><size>0.28 0.23 0.0099</size></box></geometry></collision>
+        <visual name='v'><geometry><box><size>0.28 0.23 0.0099</size></box></geometry>
+          <material><ambient>0.55 0.35 0.1 1</ambient><diffuse>0.75 0.5 0.15 1</diffuse></material></visual>
+      </link>
+    </model>
+
+    <model name='feed_19'>
+      <pose>0 0 0.4245 0 0 0</pose>
+      <link name='link'>
+        <inertial><mass>0.2500</mass><inertia><ixx>0.001104</ixx><iyy>0.001635</iyy><izz>0.002735</izz><ixy>0</ixy><ixz>0</ixz><iyz>0</iyz></inertia></inertial>
+        <collision name='c'><geometry><box><size>0.28 0.23 0.0099</size></box></geometry></collision>
+        <visual name='v'><geometry><box><size>0.28 0.23 0.0099</size></box></geometry>
+          <material><ambient>0.55 0.35 0.1 1</ambient><diffuse>0.75 0.5 0.15 1</diffuse></material></visual>
+      </link>
+    </model>
+
+    <model name='obs_platform'>
+      <static>true</static>
+      <pose degrees="true">40 70 6.0 0 0 0</pose>
+      <link name='link'>
+        <collision name='c'><geometry><box><size>15 15 12</size></box></geometry></collision>
+        <visual name='v'><geometry><box><size>15 15 12</size></box></geometry>
+          <material><ambient>0.8 0.2 0.1 1</ambient><diffuse>0.9 0.3 0.1 1</diffuse></material></visual>
+      </link>
+    </model>
+
+  </world>
+</sdf>

@@ -1,0 +1,11 @@
+{
+  "name": "Penghu Xiyu offshore",
+  "note": "Open sea around Xiyu Township (about 23.6N 119.5E). obstacles are PLACEHOLDERS (edit): center is east/north metres from the takeoff point, size is [length_x, width_y, height_z], yaw in degrees counter-clockwise.",
+  "z0": 0.0002,
+  "zref": 10.0,
+  "obstacles": [
+    {"name": "platform", "center": [40, 70], "size": [15, 15, 12], "yaw": 0}
+  ],
+  "domain": {"upstream": 200, "downstream": 350, "half_width": 160, "height": 120},
+  "sample": {"half_extent": 150, "dx": 5, "zmax": 80, "dz": 4}
+}

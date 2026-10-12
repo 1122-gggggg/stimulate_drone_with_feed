@@ -1,0 +1,5 @@
+# OpenFOAM raw case output (large, regenerate with wind_cfd/run_cfd.py); the converted wind_data/*.npz IS tracked
+wind_cfd/cases/
+.claude/
+__pycache__/
+*.pyc

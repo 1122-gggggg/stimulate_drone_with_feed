@@ -1,0 +1,5 @@
+# bash/python run inside WSL/Linux: CRLF would break them after a Windows checkout
+*.sh text eol=lf
+*.py text eol=lf
+*.parm text eol=lf
+*.npz binary
